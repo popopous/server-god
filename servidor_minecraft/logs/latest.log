@@ -37,3 +37,10 @@
 [02:43:03] [Server thread/INFO]: Black_insnillo[/0:0:0:0:0:0:0:1%0:52562] logged in with entity id 123 at (620.0801557862598, 69.6000000178814, -678.0476170245187)
 [02:43:03] [Server thread/INFO]: Black_insnillo joined the game
 [02:44:24] [Server thread/INFO]: Its_Gabo7 has made the advancement [What a Deal!]
+[02:56:04] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=689, y=64, z=-680} fx{x=690, y=62, z=-681}
+[02:58:28] [Server thread/WARN]: Boat (vehicle of Black_insnillo) moved wrongly! 0.5733173976793751
+[02:58:28] [Server thread/WARN]: Boat (vehicle of Black_insnillo) moved wrongly! 0.4641249041580977
+[02:58:28] [Server thread/WARN]: Boat (vehicle of Black_insnillo) moved wrongly! 0.3532516635121965
+[02:58:28] [Server thread/WARN]: Boat (vehicle of Black_insnillo) moved wrongly! 0.34065166443213
+[02:58:28] [Server thread/WARN]: Boat (vehicle of Black_insnillo) moved wrongly! 0.3167116664802734
+[02:58:28] [Server thread/WARN]: Boat (vehicle of Black_insnillo) moved wrongly! 0.2825656698142893
