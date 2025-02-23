@@ -373,6 +373,7 @@
       "porkchop": "2025-02-22 22:05:32 +0000",
       "apple": "2025-02-23 03:17:58 +0000",
       "bread": "2025-02-23 04:09:31 +0000",
+      "golden_apple": "2025-02-23 05:33:55 +0000",
       "cookie": "2025-02-23 03:55:11 +0000",
       "rotten_flesh": "2025-02-23 05:00:54 +0000",
       "suspicious_stew": "2025-02-23 03:23:03 +0000",
@@ -592,7 +593,8 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:cat": "2025-02-23 04:39:02 +0000"
+      "minecraft:cat": "2025-02-23 04:39:02 +0000",
+      "minecraft:mule": "2025-02-23 05:40:59 +0000"
     },
     "done": false
   },
@@ -1031,6 +1033,12 @@
   "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2025-02-23 04:08:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_red_flower": "2025-02-23 05:40:17 +0000"
     },
     "done": true
   },

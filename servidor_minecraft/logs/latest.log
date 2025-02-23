@@ -131,3 +131,20 @@
 [05:28:57] [Server thread/INFO]: Black_insnillo was shot by Its_Gabo7 using [arco pro]
 [05:29:22] [Server thread/INFO]: Its_Gabo7 fell from a high place
 [05:29:24] [Server thread/WARN]: Fetching packet for removed entity bcv['Cobblestone'/44709, l='ServerLevel[world]', x=573.17, y=68.00, z=-665.69]
+[05:38:08] [Server thread/INFO]: Black_insnillo lost connection: You logged in from another location
+[05:38:08] [Server thread/INFO]: Black_insnillo left the game
+[05:38:08] [Server thread/INFO]: Black_insnillo[/0:0:0:0:0:0:0:1%0:57424] logged in with entity id 45981 at (613.2518310851539, 73.0, -676.6913998188506)
+[05:38:08] [Server thread/INFO]: Black_insnillo joined the game
+[05:38:26] [Server thread/INFO]: Black_insnillo lost connection: You logged in from another location
+[05:38:26] [Server thread/INFO]: Black_insnillo left the game
+[05:38:26] [Server thread/INFO]: Black_insnillo[/0:0:0:0:0:0:0:1%0:42206] logged in with entity id 46010 at (613.2518310851539, 73.0, -676.6913998188506)
+[05:38:26] [Server thread/INFO]: Black_insnillo joined the game
+[05:38:53] [Server thread/INFO]: Black_insnillo lost connection: You logged in from another location
+[05:38:53] [Server thread/INFO]: Black_insnillo left the game
+[05:38:53] [Server thread/INFO]: Black_insnillo[/0:0:0:0:0:0:0:1%0:48298] logged in with entity id 46057 at (612.8948138769537, 73.0, -673.1636077949535)
+[05:38:53] [Server thread/INFO]: Black_insnillo joined the game
+[05:39:36] [Server thread/INFO]: [Black_insnillo: Kicked Its_Gabo7: Kicked by an operator]
+[05:39:36] [Server thread/INFO]: Its_Gabo7 lost connection: Kicked by an operator
+[05:39:36] [Server thread/INFO]: Its_Gabo7 left the game
+[05:39:38] [Server thread/INFO]: Its_Gabo7[/0:0:0:0:0:0:0:1%0:47576] logged in with entity id 46133 at (612.3843917339685, 69.0, -680.3107329671108)
+[05:39:38] [Server thread/INFO]: Its_Gabo7 joined the game
