@@ -153,3 +153,10 @@
 [05:44:54] [Server thread/WARN]: handleDisconnection() called twice
 [06:00:54] [Server thread/INFO]: Black_insnillo[/0:0:0:0:0:0:0:1%0:50458] logged in with entity id 49215 at (597.4639281445327, 68.0, -680.6227026795925)
 [06:00:54] [Server thread/INFO]: Black_insnillo joined the game
+[06:14:24] [Server thread/INFO]: Black_insnillo tried to swim in lava
+[06:14:33] [Server thread/INFO]: [Black_insnillo: Set own game mode to Spectator Mode]
+[06:14:50] [Server thread/INFO]: [Black_insnillo: Set own game mode to Survival Mode]
+[06:15:07] [Server thread/INFO]: [Black_insnillo: Set own game mode to Spectator Mode]
+[06:15:08] [Server thread/INFO]: [Black_insnillo: Set own game mode to Survival Mode]
+[06:15:10] [Server thread/INFO]: [Black_insnillo: Set own game mode to Spectator Mode]
+[06:15:11] [Server thread/INFO]: [Black_insnillo: Set own game mode to Survival Mode]
