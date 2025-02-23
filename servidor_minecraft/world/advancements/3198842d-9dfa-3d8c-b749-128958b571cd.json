@@ -337,6 +337,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "sweet_berries": "2025-02-23 03:44:12 +0000",
       "cooked_beef": "2025-02-22 22:12:10 +0000",
       "beef": "2025-02-22 22:09:23 +0000",
       "porkchop": "2025-02-22 22:05:32 +0000",
@@ -1633,6 +1634,12 @@
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2025-02-22 22:09:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-02-23 03:50:36 +0000"
     },
     "done": true
   },
