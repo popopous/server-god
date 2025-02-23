@@ -50,3 +50,19 @@
 [03:06:49] [Server thread/INFO]: Black_insnillo has made the advancement [Diamonds!]
 [03:08:46] [Server thread/INFO]: Its_Gabo7 has made the advancement [A Seedy Place]
 [03:22:25] [Server thread/INFO]: Its_Gabo7 has made the advancement [Best Friends Forever]
+[03:26:06] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/11182, l='ServerLevel[world]', x=607.56, y=70.32, z=-700.07]
+[03:26:45] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/11701, l='ServerLevel[world]', x=608.06, y=70.32, z=-698.14]
+[03:26:46] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/11706, l='ServerLevel[world]', x=608.06, y=70.32, z=-698.14]
+[03:26:47] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/11739, l='ServerLevel[world]', x=608.30, y=70.32, z=-697.88]
+[03:26:48] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/11760, l='ServerLevel[world]', x=608.30, y=70.32, z=-697.88]
+[03:26:52] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/11831, l='ServerLevel[world]', x=608.01, y=70.32, z=-697.12]
+[03:29:21] [Server thread/INFO]: Black_insnillo lost connection: Disconnected
+[03:29:21] [Server thread/INFO]: Black_insnillo left the game
+[03:29:21] [Server thread/WARN]: handleDisconnection() called twice
+[03:29:26] [Server thread/INFO]: Black_insnillo[/0:0:0:0:0:0:0:1%0:51552] logged in with entity id 13877 at (1235.8849855111412, 72.6000000178814, -1508.3673140721617)
+[03:29:26] [Server thread/INFO]: Black_insnillo joined the game
+[03:31:27] [Server thread/WARN]: Mule (vehicle of Black_insnillo) moved wrongly! 0.3151313426251363
+[03:31:27] [Server thread/WARN]: Mule (vehicle of Black_insnillo) moved wrongly! 0.7335477401293247
+[03:31:27] [Server thread/WARN]: Mule (vehicle of Black_insnillo) moved wrongly! 1.1590112525034328
+[03:31:27] [Server thread/WARN]: Mule (vehicle of Black_insnillo) moved wrongly! 1.5616105212670846
+[03:31:27] [Server thread/WARN]: Mule (vehicle of Black_insnillo) moved wrongly! 1.9174162623651227
