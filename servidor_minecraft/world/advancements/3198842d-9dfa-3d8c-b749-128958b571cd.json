@@ -402,6 +402,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2025-02-23 04:35:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bucket": {
     "criteria": {
       "has_iron_ingot": "2025-02-22 22:15:02 +0000"
@@ -569,6 +575,12 @@
       "has_bed": "2025-02-23 02:51:50 +0000"
     },
     "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cat": "2025-02-23 04:39:02 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
@@ -1094,6 +1106,12 @@
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
       "in_water": "2025-02-22 21:19:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2025-02-23 04:35:07 +0000"
     },
     "done": true
   },
@@ -1843,6 +1861,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "cod": "2025-02-23 04:35:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/acacia_sign": {
     "criteria": {
       "has_acacia_planks": "2025-02-22 22:19:10 +0000"
@@ -1867,6 +1891,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2025-02-23 04:39:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/mojang_banner_pattern": {
     "criteria": {
       "has_enchanted_golden_apple": "2025-02-23 02:20:46 +0000"
@@ -1885,11 +1915,25 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2025-02-23 04:35:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lantern": {
     "criteria": {
       "has_iron_ingot": "2025-02-22 22:15:02 +0000"
     },
     "done": true
+  },
+  "minecraft:husbandry/complete_catalogue": {
+    "criteria": {
+      "textures/entity/cat/white.png": "2025-02-23 04:39:25 +0000",
+      "textures/entity/cat/siamese.png": "2025-02-23 04:33:51 +0000",
+      "textures/entity/cat/red.png": "2025-02-23 04:35:18 +0000"
+    },
+    "done": false
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
