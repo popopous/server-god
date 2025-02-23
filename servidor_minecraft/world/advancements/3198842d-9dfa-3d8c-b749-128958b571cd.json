@@ -374,6 +374,7 @@
       "apple": "2025-02-23 03:17:58 +0000",
       "bread": "2025-02-23 04:09:31 +0000",
       "cookie": "2025-02-23 03:55:11 +0000",
+      "rotten_flesh": "2025-02-23 05:00:54 +0000",
       "suspicious_stew": "2025-02-23 03:23:03 +0000"
     },
     "done": false
@@ -918,6 +919,7 @@
       "minecraft:spider": "2025-02-22 22:15:15 +0000",
       "minecraft:creeper": "2025-02-23 02:27:26 +0000",
       "minecraft:zombified_piglin": "2025-02-23 02:57:14 +0000",
+      "minecraft:husk": "2025-02-23 05:00:49 +0000",
       "minecraft:enderman": "2025-02-23 02:24:27 +0000",
       "minecraft:zombie": "2025-02-23 02:23:30 +0000"
     },
@@ -1232,6 +1234,12 @@
   "minecraft:recipes/food/cooked_salmon_from_smoking": {
     "criteria": {
       "has_salmon": "2025-02-23 04:31:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tactical_fishing": {
+    "criteria": {
+      "salmon_bucket": "2025-02-23 04:55:14 +0000"
     },
     "done": true
   },

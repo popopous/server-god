@@ -103,3 +103,13 @@
 [04:36:14] [Server thread/INFO]: Black_insnillo joined the game
 [04:39:02] [Server thread/INFO]: Its_Gabo7 has made the advancement [The Parrots and the Bats]
 [04:52:27] [Server thread/INFO]: [Black_insnillo: Teleported Black_insnillo to Its_Gabo7]
+[04:55:06] [Server thread/WARN]: Fetching packet for removed entity bcv['Stick'/39182, l='ServerLevel[world]', x=72.48, y=94.00, z=-84.62]
+[04:55:14] [Server thread/INFO]: Its_Gabo7 has made the advancement [Tactical Fishing]
+[04:55:34] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=626, y=61, z=-885} fx{x=626, y=62, z=-885}
+[05:00:03] [Server thread/INFO]: Black_insnillo was blown up by Creeper
+[05:00:12] [Server thread/INFO]: [Black_insnillo: Teleported Black_insnillo to Its_Gabo7]
+[05:03:20] [Server thread/INFO]: [Black_insnillo: Kicked Its_Gabo7: Kicked by an operator]
+[05:03:20] [Server thread/INFO]: Its_Gabo7 lost connection: Kicked by an operator
+[05:03:20] [Server thread/INFO]: Its_Gabo7 left the game
+[05:03:23] [Server thread/INFO]: Its_Gabo7[/0:0:0:0:0:0:0:1%0:40144] logged in with entity id 40750 at (593.5509175065572, 69.0, -698.1637056820772)
+[05:03:23] [Server thread/INFO]: Its_Gabo7 joined the game
