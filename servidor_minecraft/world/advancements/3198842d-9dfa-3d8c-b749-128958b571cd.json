@@ -269,6 +269,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-02-23 04:00:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_flint": "2025-02-23 02:20:42 +0000"
@@ -342,6 +348,7 @@
       "beef": "2025-02-22 22:09:23 +0000",
       "porkchop": "2025-02-22 22:05:32 +0000",
       "apple": "2025-02-23 03:17:58 +0000",
+      "cookie": "2025-02-23 03:55:11 +0000",
       "suspicious_stew": "2025-02-23 03:23:03 +0000"
     },
     "done": false
@@ -1739,6 +1746,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2025-02-23 03:57:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
     "criteria": {
       "has_beef": "2025-02-22 22:04:57 +0000"
@@ -1796,6 +1809,12 @@
   "minecraft:recipes/building_blocks/acacia_stairs": {
     "criteria": {
       "has_planks": "2025-02-22 22:19:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_red_flower": "2025-02-23 04:00:53 +0000"
     },
     "done": true
   },
