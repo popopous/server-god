@@ -102,3 +102,8 @@
 [02:19:33] [Server thread/INFO]: Its_Gabo7 fell from a high place
 [02:19:57] [Server thread/INFO]: Its_Gabo7 lost connection: Timed out
 [02:19:57] [Server thread/INFO]: Its_Gabo7 left the game
+[02:20:09] [Server thread/INFO]: Its_Gabo7[/0:0:0:0:0:0:0:1%0:47792] logged in with entity id 76555 at (578.4575042606293, 37.231523797587016, -718.064727775355)
+[02:20:09] [Server thread/INFO]: Its_Gabo7 joined the game
+[02:20:09] [Server thread/WARN]: Fetching packet for removed entity bcv['Iron Ore'/76554, l='ServerLevel[world]', x=545.82, y=35.04, z=-790.15]
+[02:20:40] [Server thread/INFO]: Its_Gabo7 has made the advancement [Hot Stuff]
+[02:22:38] [Server thread/INFO]: Its_Gabo7 has made the advancement [Not Today, Thank You]
