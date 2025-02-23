@@ -167,6 +167,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_stone": {
+    "criteria": {
+      "has_the_recipe": "2025-02-23 05:50:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2025-02-23 05:50:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2025-02-22 22:08:50 +0000"
@@ -377,6 +389,7 @@
       "cookie": "2025-02-23 03:55:11 +0000",
       "rotten_flesh": "2025-02-23 05:00:54 +0000",
       "suspicious_stew": "2025-02-23 03:23:03 +0000",
+      "golden_carrot": "2025-02-23 05:48:00 +0000",
       "carrot": "2025-02-23 05:16:03 +0000"
     },
     "done": false
@@ -582,6 +595,12 @@
   "minecraft:recipes/decorations/acacia_fence": {
     "criteria": {
       "has_planks": "2025-02-22 22:19:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2025-02-23 05:50:03 +0000"
     },
     "done": true
   },
@@ -1213,6 +1232,12 @@
   "minecraft:husbandry/tame_an_animal": {
     "criteria": {
       "tamed_animal": "2025-02-23 03:22:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2025-02-23 05:50:03 +0000"
     },
     "done": true
   },
