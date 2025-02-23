@@ -1,5 +1,5 @@
-[17:36:39] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:36:39] [main/FATAL]: Failed to start the minecraft server
+[17:40:15] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:40:15] [main/FATAL]: Failed to start the minecraft server
 aex$a: /workspaces/server-god/servidor_minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
 	at aex$a.a(SourceFile:98) ~[vanilla.jar:?]
 	at aex.a(SourceFile:44) ~[vanilla.jar:?]
