@@ -92,3 +92,6 @@
 [03:50:45] [Server thread/INFO]: Black_insnillo was shot by Its_Gabo7
 [04:13:06] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/32269, l='ServerLevel[world]', x=608.70, y=70.26, z=-695.37]
 [04:13:06] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/32269, l='ServerLevel[world]', x=608.70, y=70.26, z=-695.37]
+[04:28:57] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=614, y=70, z=-694} fx{x=615, y=68, z=-693}
+[04:28:57] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=614, y=70, z=-694} fx{x=615, y=68, z=-693}
+[04:32:27] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=672, y=61, z=-788} fx{x=672, y=62, z=-788}
