@@ -88,3 +88,21 @@
 [14Apr2025 21:07:40.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WTF
 [14Apr2025 21:08:30.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
 [14Apr2025 21:08:37.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set spawn point to 3, 4, -15 [0.0] in minecraft:overworld for Iaqocraft]
+[14Apr2025 21:38:31.190] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Poubasadito is a4a491d0-8fa2-4d1f-890f-81d9348d95b3
+[14Apr2025 21:38:33.930] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Poubasadito[/127.222.186.46:34359] logged in with entity id 27 at (-4.5, 5.0, -18.5)
+[14Apr2025 21:38:33.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito joined the game
+[14Apr2025 21:39:02.738] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=0, y=6, z=-8}
+[14Apr2025 21:39:05.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
+[14Apr2025 21:39:11.705] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-1, y=7, z=-7}
+[14Apr2025 21:39:15.742] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-1, y=7, z=-7}
+[14Apr2025 21:39:19.496] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-1, y=5, z=-7}
+[14Apr2025 21:39:27.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Teleported Poubasadito to Iaqocraft]
+[14Apr2025 21:39:32.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
+[14Apr2025 21:39:39.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set the weather to clear]
+[14Apr2025 21:39:42.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
+[14Apr2025 21:39:45.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
+[14Apr2025 21:40:04.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Applied effect Night Vision to 2 targets]
+[14Apr2025 21:40:04.252] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-10, y=4, z=2} BlockPos{x=-5, y=5, z=-7}
+[14Apr2025 21:40:08.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: What's that ?
+[14Apr2025 21:40:10.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You look like those spiders!
+[14Apr2025 21:40:31.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
