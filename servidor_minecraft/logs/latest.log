@@ -1,630 +1,88 @@
-[14Apr2025 21:00:41.485] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[14Apr2025 21:00:41.493] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
-[14Apr2025 21:00:41.609] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[14Apr2025 21:00:41.716] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server-god/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[14Apr2025 21:00:42.023] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-god/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[14Apr2025 21:00:42.025] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-god/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[14Apr2025 21:00:42.027] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-god/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[14Apr2025 21:00:42.028] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-god/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[14Apr2025 21:00:42.145] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[14Apr2025 21:00:44.011] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[14Apr2025 21:00:52.050] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[14Apr2025 21:00:52.053] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[14Apr2025 21:00:52.785] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[14Apr2025 21:00:53.227] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[14Apr2025 21:00:54.669] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14Apr2025 21:00:54.806] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:ultimate_lucky_block Expected: 1003 Got: 498
-[14Apr2025 21:00:54.806] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:bananapeel Expected: 1004 Got: 763
-[14Apr2025 21:00:54.807] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:pro_gamer_pc Expected: 1005 Got: 764
-[14Apr2025 21:00:54.807] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:therock Expected: 1255 Got: 372
-[14Apr2025 21:00:54.808] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:bubblesstick Expected: 1256 Got: 976
-[14Apr2025 21:00:54.808] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:toilet_paper Expected: 1257 Got: 977
-[14Apr2025 21:00:54.808] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:toilet_paper_gun Expected: 1258 Got: 978
-[14Apr2025 21:00:54.808] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:combineddiamondarmor_helmet Expected: 1259 Got: 979
-[14Apr2025 21:00:54.809] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:combineddiamondarmor_chestplate Expected: 1260 Got: 980
-[14Apr2025 21:00:54.809] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:combineddiamondarmor_leggings Expected: 1261 Got: 981
-[14Apr2025 21:00:54.809] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:combineddiamondarmor_boots Expected: 1262 Got: 982
-[14Apr2025 21:00:54.809] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:ultimate_lucky_block Expected: 1263 Got: 983
-[14Apr2025 21:00:54.810] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:bananapeel Expected: 1264 Got: 984
-[14Apr2025 21:00:54.810] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:banana Expected: 1265 Got: 985
-[14Apr2025 21:00:54.810] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:bananapickaxe Expected: 1266 Got: 986
-[14Apr2025 21:00:54.810] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:pro_gamer_pc Expected: 1267 Got: 987
-[14Apr2025 21:00:54.810] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:toothpaste Expected: 1268 Got: 988
-[14Apr2025 21:00:54.811] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:bananapistol Expected: 1269 Got: 989
-[14Apr2025 21:00:54.811] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:hairdryer Expected: 1270 Got: 990
-[14Apr2025 21:00:54.812] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:therocksound Expected: 1474 Got: 831
-[14Apr2025 21:00:54.812] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:toilet_paperproj Expected: 124 Got: 108
-[14Apr2025 21:00:54.812] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:bananaproj Expected: 125 Got: 109
-[14Apr2025 21:00:54.812] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:fire Expected: 126 Got: 110
-[14Apr2025 21:00:55.629] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server-god/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/assets/.mcassetsroot' uses unexpected schema
-[14Apr2025 21:00:55.629] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server-god/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/data/.mcassetsroot' uses unexpected schema
-[14Apr2025 21:00:57.819] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[14Apr2025 21:00:57.958] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[14Apr2025 21:00:58.587] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[14Apr2025 21:00:58.588] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[14Apr2025 21:00:58.588] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[14Apr2025 21:00:58.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[14Apr2025 21:00:58.704] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[14Apr2025 21:00:58.747] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[14Apr2025 21:00:58.896] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[14Apr2025 21:00:59.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[14Apr2025 21:01:04.982] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Apr2025 21:01:04.986] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Apr2025 21:01:04.987] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Apr2025 21:01:04.991] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Apr2025 21:01:04.992] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Apr2025 21:01:04.996] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Apr2025 21:01:06.338] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Apr2025 21:01:06.349] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Apr2025 21:01:06.354] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Apr2025 21:01:06.357] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Apr2025 21:01:06.358] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Apr2025 21:01:06.358] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Apr2025 21:01:06.363] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Apr2025 21:01:06.363] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Apr2025 21:01:06.369] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Apr2025 21:01:06.668] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Apr2025 21:01:07.170] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
-[14Apr2025 21:01:07.668] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
-[14Apr2025 21:01:08.004] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8836 ms
-[14Apr2025 21:01:08.005] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.147s)! For help, type "help"
-[14Apr2025 21:01:08.025] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[14Apr2025 21:03:06.501] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Iaqocraft is 6b94834c-3a61-451a-889e-c47e334a64d5
-[14Apr2025 21:03:08.940] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Iaqocraft[/127.32.141.209:46843] logged in with entity id 1 at (-8.5, 5.0, -5.5)
-[14Apr2025 21:03:09.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft joined the game
-[14Apr2025 21:03:41.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Clear a random player in 3 seconds !
-[14Apr2025 21:04:47.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Transform your diamonds items into wood items !
-[14Apr2025 21:05:02.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FIGHT !
-[14Apr2025 21:05:02.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Husk army !
-[14Apr2025 21:05:19.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft was killed
-[14Apr2025 21:05:19.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Killed 12 entities]
-[14Apr2025 21:05:47.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm sure you like rain (Laughs of evil person)
-[14Apr2025 21:06:49.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Creeper...
-[14Apr2025 21:06:49.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...Supercharged !
-[14Apr2025 21:07:00.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This time you can't escape me !
-[14Apr2025 21:07:15.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Just a friend for you
-[14Apr2025 21:07:19.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm sure you like rain (Laughs of evil person)
-[14Apr2025 21:07:24.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Brush your teeth bro
-[14Apr2025 21:07:40.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WTF
-[14Apr2025 21:08:30.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 21:08:37.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set spawn point to 3, 4, -15 [0.0] in minecraft:overworld for Iaqocraft]
-[14Apr2025 21:38:31.190] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Poubasadito is a4a491d0-8fa2-4d1f-890f-81d9348d95b3
-[14Apr2025 21:38:33.930] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Poubasadito[/127.222.186.46:34359] logged in with entity id 27 at (-4.5, 5.0, -18.5)
-[14Apr2025 21:38:33.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito joined the game
-[14Apr2025 21:39:02.738] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=0, y=6, z=-8}
-[14Apr2025 21:39:05.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 21:39:11.705] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-1, y=7, z=-7}
-[14Apr2025 21:39:15.742] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-1, y=7, z=-7}
-[14Apr2025 21:39:19.496] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-1, y=5, z=-7}
-[14Apr2025 21:39:27.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Teleported Poubasadito to Iaqocraft]
-[14Apr2025 21:39:32.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 21:39:39.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set the weather to clear]
-[14Apr2025 21:39:42.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 21:39:45.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 21:40:04.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Applied effect Night Vision to 2 targets]
-[14Apr2025 21:40:04.252] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-10, y=4, z=2} BlockPos{x=-5, y=5, z=-7}
-[14Apr2025 21:40:08.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: What's that ?
-[14Apr2025 21:40:10.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You look like those spiders!
-[14Apr2025 21:40:31.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 21:41:05.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 21:41:06.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You have 3 seconds to eat this cake
-[14Apr2025 21:41:06.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 3
-[14Apr2025 21:41:07.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2
-[14Apr2025 21:41:08.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 1
-[14Apr2025 21:41:09.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: (◣_◢)
-[14Apr2025 21:41:14.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nothing ?
-[14Apr2025 21:41:16.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: "How are you going to escape, huh ?"
-[14Apr2025 21:41:20.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 21:41:24.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 21:41:26.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 21:41:30.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chicken rain !
-[14Apr2025 21:41:33.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 21:41:42.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Be STRONG !
-[14Apr2025 21:41:46.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Creeper...
-[14Apr2025 21:41:46.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...Supercharged !
-[14Apr2025 21:41:48.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito was blown up by Creeper
-[14Apr2025 21:41:48.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft was blown up by Creeper
-[14Apr2025 21:41:53.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 21:41:54.343] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=0, y=6, z=-8}
-[14Apr2025 21:41:54.497] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=0, y=6, z=-8}
-[14Apr2025 21:41:54.866] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=0, y=6, z=-7}
-[14Apr2025 21:41:54.965] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=0, y=6, z=-8}
-[14Apr2025 21:41:55.044] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=0, y=6, z=-7}
-[14Apr2025 21:41:55.204] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=0, y=6, z=-8}
-[14Apr2025 21:41:55.343] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=0, y=6, z=-7}
-[14Apr2025 21:41:55.444] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=0, y=6, z=-8}
-[14Apr2025 21:41:55.649] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=0, y=6, z=-7}
-[14Apr2025 21:41:55.690] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=0, y=6, z=-8}
-[14Apr2025 21:41:55.791] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=0, y=6, z=-7}
-[14Apr2025 21:41:56.103] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=0, y=7, z=-7}
-[14Apr2025 21:41:56.420] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-1, y=8, z=-7}
-[14Apr2025 21:41:56.524] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-1, y=9, z=-7}
-[14Apr2025 21:41:56.592] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-1, y=8, z=-7}
-[14Apr2025 21:41:56.643] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-1, y=7, z=-7}
-[14Apr2025 21:41:56.693] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-1, y=6, z=-7}
-[14Apr2025 21:41:56.794] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-1, y=5, z=-7}
-[14Apr2025 21:41:59.554] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=0, y=6, z=-7}
-[14Apr2025 21:41:59.816] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=0, y=6, z=-7}
-[14Apr2025 21:42:08.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 21:42:20.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Transform your diamonds items into wood items !
-[14Apr2025 21:42:23.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mineral shower !
-[14Apr2025 21:42:25.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft has made the advancement [Diamonds!]
-[14Apr2025 21:42:29.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft has made the advancement [Monster Hunter]
-[14Apr2025 21:42:36.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unlucky !
-[14Apr2025 21:42:40.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AAAAaaa, Aaaaaaa,...
-[14Apr2025 21:42:41.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATCHOUM
-[14Apr2025 21:42:41.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft blew up
-[14Apr2025 21:42:47.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lucky !
-[14Apr2025 21:42:48.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito has made the advancement [Diamonds!]
-[14Apr2025 21:42:56.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Take a damage but have a random gift !
-[14Apr2025 21:42:57.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WOW YOU WIN A PRO GAMER PC
-[14Apr2025 21:43:04.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mmmmh, banana
-[14Apr2025 21:43:07.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You look like those spiders!
-[14Apr2025 21:43:09.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nether invocation !!
-[14Apr2025 21:43:23.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 21:43:41.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 21:43:44.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm sure you like rain (Laughs of evil person)
-[14Apr2025 21:43:53.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Wtf, there are a lot of effects on you, bro !
-[14Apr2025 21:44:04.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Brush your teeth bro
-[14Apr2025 21:44:08.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Clear a random player in 3 seconds !
-[14Apr2025 21:44:16.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: What's that ?
-[14Apr2025 21:44:19.026] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Poubasadito was kicked for floating too long!
-[14Apr2025 21:44:19.027] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Poubasadito lost connection: Disconnected
-[14Apr2025 21:44:19.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito left the game
-[14Apr2025 21:44:19.076] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[14Apr2025 21:44:22.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: End invocation !!
-[14Apr2025 21:44:28.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 21:44:41.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set the weather to clear]
-[14Apr2025 21:44:56.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Gamerule doMobSpawning is now set to: false]
-[14Apr2025 21:45:20.471] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Poubasadito is a4a491d0-8fa2-4d1f-890f-81d9348d95b3
-[14Apr2025 21:45:22.787] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Poubasadito[/127.222.186.46:35105] logged in with entity id 576 at (-0.9385563417846898, -152.02285825533875, 19.11799596659308)
-[14Apr2025 21:45:22.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito joined the game
-[14Apr2025 21:45:23.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito fell out of the world
-[14Apr2025 21:45:25.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 21:45:32.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 21:45:39.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Good luck to break it...
-[14Apr2025 21:45:39.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 21:45:44.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unlucky !
-[14Apr2025 21:45:48.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unlucky !
-[14Apr2025 21:45:53.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Anvil rain !
-[14Apr2025 21:45:57.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: "You have such bad breath!"
-[14Apr2025 21:46:06.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I feel like the mod creator is running out of ideas...
-[14Apr2025 21:46:09.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito has made the advancement [We Need to Go Deeper]
-[14Apr2025 21:46:10.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Burn in hell !
-[14Apr2025 21:46:10.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito was slain by Trump Guard
-[14Apr2025 21:46:13.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 21:46:27.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 21:46:33.726] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Poubasadito was kicked for floating too long!
-[14Apr2025 21:46:33.777] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Poubasadito lost connection: Flying is not enabled on this server
-[14Apr2025 21:46:33.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito left the game
-[14Apr2025 21:46:44.392] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Poubasadito is a4a491d0-8fa2-4d1f-890f-81d9348d95b3
-[14Apr2025 21:46:46.684] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Poubasadito[/127.222.186.46:32819] logged in with entity id 886 at (0.9458277993440617, -140.83340857907592, 11.939895089024368)
-[14Apr2025 21:46:46.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito joined the game
-[14Apr2025 21:46:47.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito fell out of the world
-[14Apr2025 21:47:06.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito has made the advancement [Acquire Hardware]
-[14Apr2025 21:47:08.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Be STRONG !
-[14Apr2025 21:47:27.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Made Poubasadito a server operator]
-[14Apr2025 21:47:29.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Anvil rain !
-[14Apr2025 21:47:33.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito was slain by Shulker
-[14Apr2025 21:47:36.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 21:47:41.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft fell from a high place
-[14Apr2025 21:47:49.826] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Iaqocraft was kicked for floating too long!
-[14Apr2025 21:47:49.876] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Iaqocraft lost connection: Flying is not enabled on this server
-[14Apr2025 21:47:49.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft left the game
-[14Apr2025 21:47:59.699] [User Authenticator #5/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Iaqocraft is 6b94834c-3a61-451a-889e-c47e334a64d5
-[14Apr2025 21:48:02.236] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Iaqocraft[/127.32.141.209:59283] logged in with entity id 1033 at (-2.225159749256806, -191.16195718197048, -5.464094734710341)
-[14Apr2025 21:48:02.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft joined the game
-[14Apr2025 21:48:03.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft fell out of the world
-[14Apr2025 21:48:05.200] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Iaqocraft moved too quickly! 0.0,-21.326562639139752,0.0
-[14Apr2025 21:48:14.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 21:48:15.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I feel like the mod creator is running out of ideas...
-[14Apr2025 21:48:22.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 21:48:30.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 21:48:42.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Applied effect Strength to Poubasadito]
-[14Apr2025 21:48:44.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito has made the advancement [Monster Hunter]
-[14Apr2025 21:48:49.546] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity IronGolem['Trump Guard'/881, l='ServerLevel[Lucky StairCase Block!]', x=-1.65, y=19.00, z=16.86] died: Trump Guard was killed
-[14Apr2025 21:48:49.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito was killed
-[14Apr2025 21:48:49.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft was killed
-[14Apr2025 21:48:49.549] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity IronGolem['Trump Guard'/1038, l='ServerLevel[Lucky StairCase Block!]', x=-5.55, y=19.00, z=22.99] died: Trump Guard was killed
-[14Apr2025 21:48:49.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Killed 36 entities]
-[14Apr2025 21:48:57.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 21:48:59.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 21:49:00.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dance for free xp !
-[14Apr2025 21:49:02.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I just added the craft of "skill" to your craft book. You need it.
-[14Apr2025 21:49:05.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okay, not so bad..
-[14Apr2025 21:49:06.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TNT rain !
-[14Apr2025 21:49:11.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WTF
-[14Apr2025 21:49:13.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CATS AND DIAMOND !
-[14Apr2025 21:49:19.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mmmmh, banana
-[14Apr2025 21:49:21.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Take a damage but have a random gift !
-[14Apr2025 21:49:25.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: awwww, look at this cute ... Thing ?
-[14Apr2025 21:49:30.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nether invocation !!
-[14Apr2025 21:49:43.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft was killed
-[14Apr2025 21:49:43.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito was killed whilst fighting Piglin Brute
-[14Apr2025 21:49:43.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Killed 31 entities]
-[14Apr2025 21:49:46.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 21:49:47.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 21:49:54.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 21:49:57.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 21:49:58.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unlucky !
-[14Apr2025 21:50:04.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Free gift
-[14Apr2025 21:50:11.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Just a friend for you
-[14Apr2025 21:50:17.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lucky !
-[14Apr2025 21:50:24.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 21:50:35.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Teleported Poubasadito to Iaqocraft]
-[14Apr2025 21:50:40.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 21:50:41.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: A powerful weapon is in your hands....
-[14Apr2025 21:50:43.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nether invocation !!
-[14Apr2025 21:50:49.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft was killed whilst fighting Zoglin
-[14Apr2025 21:50:49.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito was killed
-[14Apr2025 21:50:49.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Killed 25 entities]
-[14Apr2025 21:50:51.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 21:50:55.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 21:51:00.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 21:51:01.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Be STRONG !
-[14Apr2025 21:51:05.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 21:51:18.225] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Iaqocraft was kicked for floating too long!
-[14Apr2025 21:51:18.275] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Iaqocraft lost connection: Flying is not enabled on this server
-[14Apr2025 21:51:18.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft left the game
-[14Apr2025 21:51:24.265] [User Authenticator #6/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Iaqocraft is 6b94834c-3a61-451a-889e-c47e334a64d5
-[14Apr2025 21:51:26.331] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Iaqocraft[/127.32.141.209:46509] logged in with entity id 1278 at (-5.880441140699384, -152.50255050016384, 40.291114460687936)
-[14Apr2025 21:51:26.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft joined the game
-[14Apr2025 21:51:28.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft fell out of the world
-[14Apr2025 21:51:28.834] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Iaqocraft moved too quickly! 0.0,-21.69249045128751,0.0
-[14Apr2025 21:51:31.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 21:51:35.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 21:51:55.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 21:52:04.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 21:52:06.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft was shot by Poubasadito
-[14Apr2025 21:52:12.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 21:52:19.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Just a friend for you
-[14Apr2025 21:52:19.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 21:52:20.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft has made the advancement [We Need to Go Deeper]
-[14Apr2025 21:52:20.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Burn in hell !
-[14Apr2025 21:52:21.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Oh, sorry it's a miss...
-[14Apr2025 21:52:21.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito blew up
-[14Apr2025 21:52:26.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 21:52:36.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mineral shower !
-[14Apr2025 21:52:42.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Teleported Iaqocraft to Poubasadito]
-[14Apr2025 21:52:45.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 21:52:51.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: End invocation !!
-[14Apr2025 21:52:55.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Transform your diamonds items into wood items !
-[14Apr2025 21:52:56.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: End invocation !!
-[14Apr2025 21:52:57.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito was killed whilst fighting Endermite
-[14Apr2025 21:52:57.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft was killed
-[14Apr2025 21:52:57.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Killed 42 entities]
-[14Apr2025 21:53:00.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 21:53:01.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 21:53:08.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Brush your teeth bro
-[14Apr2025 21:53:11.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 21:53:13.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Anvil rain !
-[14Apr2025 21:53:13.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FIRE IN THE HOLE
-[14Apr2025 21:53:20.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 21:53:24.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 21:53:29.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 21:53:30.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 21:53:36.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 21:53:37.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I just added the craft of "skill" to your craft book. You need it.
-[14Apr2025 21:53:43.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FIRE IN THE HOLE
-[14Apr2025 21:53:44.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mineral shower !
-[14Apr2025 21:53:51.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: A powerful weapon is in your hands....
-[14Apr2025 21:53:52.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FIRE IN THE HOLE
-[14Apr2025 21:53:53.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: "How are you going to escape, huh ?"
-[14Apr2025 21:53:57.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nothing ?
-[14Apr2025 21:54:11.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You have 3 seconds to eat this cake
-[14Apr2025 21:54:11.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 3
-[14Apr2025 21:54:12.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2
-[14Apr2025 21:54:13.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 1
-[14Apr2025 21:54:14.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: (◣_◢)
-[14Apr2025 21:54:15.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WOW YOU WIN A PRO GAMER PC
-[14Apr2025 21:54:18.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chicken rain !
-[14Apr2025 21:54:21.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Free money !
-[14Apr2025 21:54:22.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mmmmh, banana
-[14Apr2025 21:54:25.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Free gift
-[14Apr2025 21:54:25.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mineral shower !
-[14Apr2025 21:54:27.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bubble stick !
-[14Apr2025 21:54:28.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CATS AND DIAMOND !
-[14Apr2025 21:54:37.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 21:54:44.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 21:54:55.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chicken rain !
-[14Apr2025 21:54:58.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Clear a random player in 3 seconds !
-[14Apr2025 21:55:05.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm sure you like rain (Laughs of evil person)
-[14Apr2025 21:55:09.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm sure you like rain (Laughs of evil person)
-[14Apr2025 21:55:10.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DIAMOND
-[14Apr2025 21:55:12.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: End invocation !!
-[14Apr2025 21:55:20.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 21:55:27.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WOW YOU WIN A PRO GAMER PC
-[14Apr2025 21:55:34.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 21:55:47.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 21:55:52.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft fell from a high place
-[14Apr2025 21:55:58.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Teleported Iaqocraft to Poubasadito]
-[14Apr2025 21:56:02.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set the world spawn point to -3, 25, 67 [0.0]]
-[14Apr2025 21:56:11.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set spawn point to -9, 27, 68 [0.0] in minecraft:overworld for Iaqocraft]
-[14Apr2025 21:56:13.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito was killed
-[14Apr2025 21:56:13.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft was killed
-[14Apr2025 21:56:13.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Killed 85 entities]
-[14Apr2025 21:56:18.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I feel like the mod creator is running out of ideas...
-[14Apr2025 21:56:20.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 21:56:20.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Transform your wood items into diamond items !
-[14Apr2025 21:56:21.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unlucky !
-[14Apr2025 21:56:24.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TNT rain !
-[14Apr2025 21:56:28.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CATS AND DIAMOND !
-[14Apr2025 21:56:36.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WTF
-[14Apr2025 21:56:37.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DIAMOND
-[14Apr2025 21:56:40.576] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity IronGolem['Trump Guard'/1835, l='ServerLevel[Lucky StairCase Block!]', x=-9.21, y=-1029.79, z=65.82] died: Trump Guard fell out of the world
-[14Apr2025 21:56:43.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This time you can't escape me !
-[14Apr2025 21:56:53.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 21:56:56.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 21:57:03.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito went up in flames
-[14Apr2025 21:57:07.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 21:57:11.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 21:57:12.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Creeper...
-[14Apr2025 21:57:13.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...Supercharged !
-[14Apr2025 21:57:13.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Amethyst beacon !
-[14Apr2025 21:57:17.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FIRE IN THE HOLE
-[14Apr2025 21:57:19.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lucky !
-[14Apr2025 21:57:21.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mineral shower !
-[14Apr2025 21:57:24.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CATS AND DIAMOND !
-[14Apr2025 21:57:25.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm sure you like rain (Laughs of evil person)
-[14Apr2025 21:57:29.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: awwww, look at this cute ... Thing ?
-[14Apr2025 21:57:30.876] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Poubasadito was kicked for floating too long!
-[14Apr2025 21:57:30.927] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Poubasadito lost connection: Flying is not enabled on this server
-[14Apr2025 21:57:30.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito left the game
-[14Apr2025 21:57:35.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TNT rain !
-[14Apr2025 21:57:40.713] [User Authenticator #7/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Poubasadito is a4a491d0-8fa2-4d1f-890f-81d9348d95b3
-[14Apr2025 21:57:43.134] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Poubasadito[/127.222.186.46:51773] logged in with entity id 2012 at (-3.532084672382687, 240.32346386745758, 78.6262826092818)
-[14Apr2025 21:57:43.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito joined the game
-[14Apr2025 21:57:48.926] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Poubasadito was kicked for floating too long!
-[14Apr2025 21:57:48.976] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Poubasadito lost connection: Flying is not enabled on this server
-[14Apr2025 21:57:48.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito left the game
-[14Apr2025 21:57:57.131] [User Authenticator #8/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Poubasadito is a4a491d0-8fa2-4d1f-890f-81d9348d95b3
-[14Apr2025 21:57:59.583] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Poubasadito[/127.222.186.46:40265] logged in with entity id 2013 at (-3.4100470375959087, 51.710508767169074, 79.43856387247236)
-[14Apr2025 21:57:59.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito joined the game
-[14Apr2025 21:58:01.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito fell from a high place
-[14Apr2025 21:58:02.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Teleported Poubasadito to Iaqocraft]
-[14Apr2025 21:58:08.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 21:58:12.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 21:58:15.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 21:58:15.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: End invocation !!
-[14Apr2025 21:58:22.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft was killed whilst fighting Shulker
-[14Apr2025 21:58:22.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito was killed
-[14Apr2025 21:58:22.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Killed 60 entities]
-[14Apr2025 21:58:32.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 21:58:32.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You look like those spiders!
-[14Apr2025 21:58:34.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 21:58:42.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Amethyst beacon !
-[14Apr2025 21:58:54.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lucky !
-[14Apr2025 21:58:56.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 21:58:57.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I feel like the mod creator is running out of ideas...
-[14Apr2025 21:58:57.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FIRE IN THE HOLE
-[14Apr2025 21:59:00.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Free gift
-[14Apr2025 21:59:01.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unlucky !
-[14Apr2025 21:59:03.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WOW YOU WIN A PRO GAMER PC
-[14Apr2025 21:59:03.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I just added the craft of "skill" to your craft book. You need it.
-[14Apr2025 21:59:05.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hasta la vista baby
-[14Apr2025 21:59:05.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Free gift
-[14Apr2025 21:59:06.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DIAMOND
-[14Apr2025 21:59:11.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mmmmh, banana
-[14Apr2025 21:59:13.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: If you break this you win a beautiful prize ! (no)
-[14Apr2025 21:59:17.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito has completed the challenge [Great View From Up Here]
-[14Apr2025 21:59:21.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito was killed
-[14Apr2025 21:59:21.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Killed Poubasadito]
-[14Apr2025 21:59:27.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nothing ?
-[14Apr2025 21:59:28.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Creeper...
-[14Apr2025 21:59:28.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...Supercharged !
-[14Apr2025 21:59:29.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito was blown up by Creeper
-[14Apr2025 21:59:39.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Clear a random player in 3 seconds !
-[14Apr2025 21:59:40.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: A powerful weapon is in your hands....
-[14Apr2025 21:59:41.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You have 3 seconds to eat this cake
-[14Apr2025 21:59:41.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 3
-[14Apr2025 21:59:42.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I feel like the mod creator is running out of ideas...
-[14Apr2025 21:59:42.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2
-[14Apr2025 21:59:43.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 1
-[14Apr2025 21:59:44.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: (◣_◢)
-[14Apr2025 21:59:50.926] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Poubasadito was kicked for floating too long!
-[14Apr2025 21:59:50.976] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Poubasadito lost connection: Flying is not enabled on this server
-[14Apr2025 21:59:50.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito left the game
-[14Apr2025 22:00:00.804] [User Authenticator #9/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Poubasadito is a4a491d0-8fa2-4d1f-890f-81d9348d95b3
-[14Apr2025 22:00:03.181] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Poubasadito[/127.222.186.46:51487] logged in with entity id 2177 at (1.6207117540394305, -59.484990330709174, 84.84526327025709)
-[14Apr2025 22:00:03.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito joined the game
-[14Apr2025 22:00:05.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Amethyst beacon !
-[14Apr2025 22:00:06.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: A powerful weapon is in your hands....
-[14Apr2025 22:00:07.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dance for free xp !
-[14Apr2025 22:00:08.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito fell out of the world
-[14Apr2025 22:00:12.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okay, not so bad..
-[14Apr2025 22:00:13.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 22:00:15.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 22:00:18.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito fell out of the world
-[14Apr2025 22:00:24.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 22:00:25.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito was shot by Iaqocraft
-[14Apr2025 22:00:29.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 22:00:32.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 22:00:33.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unlucky !
-[14Apr2025 22:00:34.577] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity IronGolem['Trump Guard'/2176, l='ServerLevel[Lucky StairCase Block!]', x=-0.78, y=49.00, z=90.52] died: Trump Guard was shot by Iaqocraft
-[14Apr2025 22:00:35.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I feel like the mod creator is running out of ideas...
-[14Apr2025 22:00:38.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 22:00:40.926] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity IronGolem['Trump Guard'/2262, l='ServerLevel[Lucky StairCase Block!]', x=-3.33, y=51.00, z=92.63] died: Trump Guard was shot by Iaqocraft
-[14Apr2025 22:00:43.176] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity IronGolem['Trump Guard'/2059, l='ServerLevel[Lucky StairCase Block!]', x=1.30, y=-1035.45, z=76.51] died: Trump Guard fell out of the world
-[14Apr2025 22:00:51.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Removed every effect from 26 targets]
-[14Apr2025 22:01:01.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 22:01:05.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 22:01:06.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: A powerful weapon is in your hands....
-[14Apr2025 22:01:07.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Free money !
-[14Apr2025 22:01:12.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: A powerful weapon is in your hands....
-[14Apr2025 22:01:17.776] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Iaqocraft was kicked for floating too long!
-[14Apr2025 22:01:17.826] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Iaqocraft lost connection: Flying is not enabled on this server
-[14Apr2025 22:01:17.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft left the game
-[14Apr2025 22:01:21.869] [User Authenticator #10/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Iaqocraft is 6b94834c-3a61-451a-889e-c47e334a64d5
-[14Apr2025 22:01:23.833] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Iaqocraft[/127.32.141.209:60691] logged in with entity id 2317 at (-10.906241119951146, -87.93183510994166, 101.52364054875245)
-[14Apr2025 22:01:23.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft joined the game
-[14Apr2025 22:01:27.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft fell out of the world
-[14Apr2025 22:01:32.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 22:01:40.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dance for free xp !
-[14Apr2025 22:01:42.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mineral shower !
-[14Apr2025 22:01:44.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 22:01:45.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okay, not so bad..
-[14Apr2025 22:01:49.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Be STRONG !
-[14Apr2025 22:01:50.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito was doomed to fall
-[14Apr2025 22:01:51.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nothing ?
-[14Apr2025 22:01:52.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 22:01:58.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 22:01:59.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DIAMOND
-[14Apr2025 22:02:01.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: awwww, look at this cute ... Thing ?
-[14Apr2025 22:02:04.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WTF
-[14Apr2025 22:02:05.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chicken rain !
-[14Apr2025 22:02:06.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dance for free xp !
-[14Apr2025 22:02:06.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FIGHT !
-[14Apr2025 22:02:06.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Husk army !
-[14Apr2025 22:02:07.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I just added the craft of "skill" to your craft book. You need it.
-[14Apr2025 22:02:09.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bubble stick !
-[14Apr2025 22:02:11.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okay, not so bad..
-[14Apr2025 22:02:12.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unlucky !
-[14Apr2025 22:02:13.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hasta la vista baby
-[14Apr2025 22:02:13.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 22:02:20.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito was killed
-[14Apr2025 22:02:20.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Killed Poubasadito]
-[14Apr2025 22:02:23.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 22:02:32.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 22:02:33.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 22:02:34.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: "How are you going to escape, huh ?"
-[14Apr2025 22:02:37.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 22:02:40.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 22:02:40.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Anvil rain !
-[14Apr2025 22:02:41.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This time you can't escape me !
-[14Apr2025 22:02:43.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 22:02:46.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 22:02:47.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Free money !
-[14Apr2025 22:02:48.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: awwww, look at this cute ... Thing ?
-[14Apr2025 22:02:49.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Free money !
-[14Apr2025 22:02:51.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Creeper...
-[14Apr2025 22:02:52.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...Supercharged !
-[14Apr2025 22:02:53.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito was blown up by Creeper
-[14Apr2025 22:02:57.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 22:02:58.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: A powerful weapon is in your hands....
-[14Apr2025 22:03:00.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: "You have such bad breath!"
-[14Apr2025 22:03:10.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 22:03:11.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chicken rain !
-[14Apr2025 22:03:12.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft has made the advancement [Acquire Hardware]
-[14Apr2025 22:03:13.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FIRE IN THE HOLE
-[14Apr2025 22:03:14.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Just a friend for you
-[14Apr2025 22:03:16.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I just added the craft of "skill" to your craft book. You need it.
-[14Apr2025 22:03:16.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Clear a random player in 3 seconds !
-[14Apr2025 22:03:18.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: A powerful weapon is in your hands....
-[14Apr2025 22:03:25.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hasta la vista baby
-[14Apr2025 22:03:26.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: awwww, look at this cute ... Thing ?
-[14Apr2025 22:03:37.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft has completed the challenge [Great View From Up Here]
-[14Apr2025 22:03:37.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nothing ?
-[14Apr2025 22:03:40.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 22:03:41.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Transform your wood items into diamond items !
-[14Apr2025 22:03:42.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CATS AND DIAMOND !
-[14Apr2025 22:03:45.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Anvil rain !
-[14Apr2025 22:03:46.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nothing ?
-[14Apr2025 22:03:47.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I just added the craft of "skill" to your craft book. You need it.
-[14Apr2025 22:03:48.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DIAMOND
-[14Apr2025 22:04:04.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: A powerful weapon is in your hands....
-[14Apr2025 22:04:06.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 22:04:07.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FIRE IN THE HOLE
-[14Apr2025 22:04:09.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You have 3 seconds to eat this cake
-[14Apr2025 22:04:09.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 3
-[14Apr2025 22:04:10.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2
-[14Apr2025 22:04:10.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Creeper...
-[14Apr2025 22:04:11.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...Supercharged !
-[14Apr2025 22:04:11.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 1
-[14Apr2025 22:04:12.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito was blown up by Creeper
-[14Apr2025 22:04:12.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Take a damage but have a random gift !
-[14Apr2025 22:04:12.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: (◣_◢)
-[14Apr2025 22:04:13.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lucky !
-[14Apr2025 22:04:14.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 22:04:17.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: What's that ?
-[14Apr2025 22:04:22.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Free gift
-[14Apr2025 22:04:24.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 22:04:25.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Free gift
-[14Apr2025 22:04:26.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I feel like the mod creator is running out of ideas...
-[14Apr2025 22:04:26.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Be STRONG !
-[14Apr2025 22:04:30.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Anvil rain !
-[14Apr2025 22:04:33.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 22:04:38.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 22:04:39.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 22:04:43.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Free money !
-[14Apr2025 22:04:46.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CATS AND DIAMOND !
-[14Apr2025 22:04:48.826] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity IronGolem['Trump Guard'/3080, l='ServerLevel[Lucky StairCase Block!]', x=-15.32, y=-728.41, z=150.76] died: Trump Guard fell out of the world
-[14Apr2025 22:04:50.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 22:04:52.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CATS AND DIAMOND !
-[14Apr2025 22:04:53.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Be STRONG !
-[14Apr2025 22:04:53.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FIRE IN THE HOLE
-[14Apr2025 22:04:54.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hasta la vista baby
-[14Apr2025 22:04:55.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bubble stick !
-[14Apr2025 22:04:57.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FIRE IN THE HOLE
-[14Apr2025 22:05:04.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito was killed
-[14Apr2025 22:05:04.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Killed Poubasadito]
-[14Apr2025 22:05:05.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: "How are you going to escape, huh ?"
-[14Apr2025 22:05:07.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 22:05:17.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 22:05:18.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm sure you like rain (Laughs of evil person)
-[14Apr2025 22:05:18.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You have 3 seconds to eat this cake
-[14Apr2025 22:05:18.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 3
-[14Apr2025 22:05:19.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2
-[14Apr2025 22:05:20.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TNT rain !
-[14Apr2025 22:05:20.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 1
-[14Apr2025 22:05:21.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: (◣_◢)
-[14Apr2025 22:05:21.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CATS AND DIAMOND !
-[14Apr2025 22:05:23.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WOW YOU WIN A PRO GAMER PC
-[14Apr2025 22:05:24.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm sure you like rain (Laughs of evil person)
-[14Apr2025 22:05:26.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dance for free xp !
-[14Apr2025 22:05:27.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Amethyst beacon !
-[14Apr2025 22:05:27.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AAAAaaa, Aaaaaaa,...
-[14Apr2025 22:05:28.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Free gift
-[14Apr2025 22:05:29.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATCHOUM
-[14Apr2025 22:05:29.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft blew up
-[14Apr2025 22:05:29.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TNT rain !
-[14Apr2025 22:05:31.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Okay, not so bad..
-[14Apr2025 22:05:32.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 22:05:46.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Free money !
-[14Apr2025 22:05:48.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 22:05:49.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Creeper...
-[14Apr2025 22:05:49.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Take a damage but have a random gift !
-[14Apr2025 22:05:49.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...Supercharged !
-[14Apr2025 22:05:50.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito was struck by lightning
-[14Apr2025 22:05:50.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FIRE IN THE HOLE
-[14Apr2025 22:05:53.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 22:05:58.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FIRE IN THE HOLE
-[14Apr2025 22:06:02.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chicken rain !
-[14Apr2025 22:06:05.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nothing ?
-[14Apr2025 22:06:11.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 22:06:12.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This time you can't escape me !
-[14Apr2025 22:06:16.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 22:06:17.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 22:06:19.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Adventure Mode]
-[14Apr2025 22:06:25.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 22:06:26.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Adventure Mode]
-[14Apr2025 22:06:27.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 22:06:30.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hasta la vista baby
-[14Apr2025 22:06:36.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Adventure Mode]
-[14Apr2025 22:06:38.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 22:06:39.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 22:06:40.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Anvil rain !
-[14Apr2025 22:06:47.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Transform your wood items into diamond items !
-[14Apr2025 22:06:49.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You look like those spiders!
-[14Apr2025 22:06:51.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 22:06:56.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 22:06:58.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 22:07:10.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 22:07:19.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 22:07:56.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito has made the advancement [Enchanter]
-[14Apr2025 22:08:19.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft has made the advancement [Enchanter]
-[14Apr2025 22:08:52.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 22:08:56.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft was shot by Poubasadito
-[14Apr2025 22:09:02.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Teleported Iaqocraft to Poubasadito]
-[14Apr2025 22:09:06.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 22:09:21.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Teleported 2 entities to Iaqocraft]
-[14Apr2025 22:09:22.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 22:10:07.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Teleported 2 entities to Iaqocraft]
-[14Apr2025 22:10:09.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 22:10:26.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Adventure Mode]
-[14Apr2025 22:10:37.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 22:10:37.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 22:10:58.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft was shot by Poubasadito
-[14Apr2025 22:11:06.526] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Iaqocraft lost connection: Disconnected
-[14Apr2025 22:11:06.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft left the game
-[14Apr2025 22:11:12.826] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Poubasadito lost connection: Disconnected
-[14Apr2025 22:11:12.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito left the game
+[14Apr2025 22:19:45.562] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[14Apr2025 22:19:45.566] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
+[14Apr2025 22:19:45.686] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[14Apr2025 22:19:45.735] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server-god/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[14Apr2025 22:19:45.974] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-god/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[14Apr2025 22:19:45.975] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-god/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[14Apr2025 22:19:45.977] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-god/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[14Apr2025 22:19:45.979] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-god/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[14Apr2025 22:19:46.068] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[14Apr2025 22:19:47.509] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[14Apr2025 22:19:52.943] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[14Apr2025 22:19:52.945] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[14Apr2025 22:19:54.179] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[14Apr2025 22:19:54.749] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[14Apr2025 22:19:55.280] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14Apr2025 22:19:55.954] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server-god/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/assets/.mcassetsroot' uses unexpected schema
+[14Apr2025 22:19:55.954] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server-god/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/data/.mcassetsroot' uses unexpected schema
+[14Apr2025 22:19:57.799] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[14Apr2025 22:19:57.928] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[14Apr2025 22:19:58.396] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[14Apr2025 22:19:58.397] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[14Apr2025 22:19:58.397] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[14Apr2025 22:19:58.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[14Apr2025 22:19:58.544] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[14Apr2025 22:19:58.569] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[14Apr2025 22:19:58.723] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[14Apr2025 22:19:58.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[14Apr2025 22:20:04.372] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 22:20:04.375] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 22:20:04.377] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 22:20:04.378] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 22:20:04.379] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 22:20:04.380] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 22:20:04.382] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 22:20:04.382] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 22:20:04.383] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 22:20:04.385] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 22:20:04.386] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 22:20:04.432] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 22:20:04.931] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
+[14Apr2025 22:20:05.369] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6439 ms
+[14Apr2025 22:20:05.370] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (6.693s)! For help, type "help"
+[14Apr2025 22:20:05.389] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[14Apr2025 22:22:13.141] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Iaqocraft is 6b94834c-3a61-451a-889e-c47e334a64d5
+[14Apr2025 22:22:15.484] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Iaqocraft[/127.32.141.209:46649] logged in with entity id 10 at (-183.5, 81.0, -259.5)
+[14Apr2025 22:22:15.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft joined the game
+[14Apr2025 22:22:37.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
+[14Apr2025 22:22:50.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
+[14Apr2025 22:25:35.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
+[14Apr2025 22:25:38.012] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Poubasadito is a4a491d0-8fa2-4d1f-890f-81d9348d95b3
+[14Apr2025 22:25:40.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
+[14Apr2025 22:25:41.043] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Poubasadito[/127.222.186.46:43967] logged in with entity id 16 at (-187.5, 81.0, -260.5)
+[14Apr2025 22:25:41.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito joined the game
+[14Apr2025 22:26:03.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Gamerule keepInventory is now set to: true]
+[14Apr2025 22:26:22.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
+[14Apr2025 22:26:25.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
+[14Apr2025 22:26:48.808] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: ID=#randList(dandelion,poppy,blue_orchid,allium,azure_bluet,pink_tulip,oxeye_daisy),amount=64@luck=0
+[14Apr2025 22:26:51.272] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(ID=stone_sword;ID=stone_shovel;ID=stone_pickaxe;ID=stone_axe;ID=stone_hoe)@luck=0
+[14Apr2025 22:26:52.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft has made the advancement [Getting an Upgrade]
+[14Apr2025 22:26:56.748] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: ID=nether_star@luck=2
+[14Apr2025 22:27:00.124] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=structure,ID=wishing_well;type=message,ID="A wishing well? Maybe you should throw in a coin...";type=command,ID=/give #pName gold_nugget{display:{Name:"{\"text\":\"Coin\",\"color\":\"gold\"}"}};type=block,ID=lucky:lucky_block,posY=#bPosY-3,NBTTag=(Drops=["group(type=message,ID=\"$eYour wish came true! (If you like potatoes)\";type=block,ID=air,posY='#'bPosY+3;type=block,ID=beacon,posY='#'bPosY+2;ID=potato,amount=128,posY='#'bPosY+10,posOffset='#'circleOffset(2);ID=baked_potato,amount=64,posY='#'bPosY+10,posOffset='#'circleOffset(2);ID=poisonous_potato,amount=32,posY='#'bPosY+10,posOffset='#'circleOffset(2))"]))@luck=1
+[14Apr2025 22:27:03.492] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=message,ID="Your wish came true! (If you like potatoes)";type=block,ID=air,posY=#bPosY+3;type=block,ID=beacon,posY=#bPosY+2;ID=potato,amount=128,posY=#bPosY+10,posOffset=#circleOffset(2);ID=baked_potato,amount=64,posY=#bPosY+10,posOffset=#circleOffset(2);ID=poisonous_potato,amount=32,posY=#bPosY+10,posOffset=#circleOffset(2))
+[14Apr2025 22:27:07.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito has made the advancement [Bring Home the Beacon]
+[14Apr2025 22:27:07.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft has made the advancement [Bring Home the Beacon]
+[14Apr2025 22:27:13.671] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(ID=prismarine,amount=#rand(4,8);ID=prismarine,damage=1,amount=#rand(4,8);ID=prismarine,damage=2,amount=#rand(4,8);ID=sea_lantern,amount=#rand(4,8);ID=prismarine_shard,amount=#rand(15,30);ID=prismarine_crystals,amount=#rand(10,20);type=particle,ID=splashpotion,potion="invisibility")@luck=1
+[14Apr2025 22:27:15.322] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: ID=obsidian,amount=14@luck=1
+[14Apr2025 22:27:15.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft has made the advancement [Ice Bucket Challenge]
+[14Apr2025 22:27:18.660] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=difficulty,ID=hard;type=entity,ID=zombie,NBTTag=(HandItems=[(id=diamond_sword,Count=1,tag=(Enchantments=#luckySwordEnchantments))],ArmorItems=[(id=diamond_boots,Count=1,tag=(Enchantments=#luckyBootsEnchantments)),(id=diamond_leggings,Count=1,tag=(Enchantments=#luckyLeggingsEnchantments)),(id=diamond_chestplate,Count=1,tag=(Enchantments=#luckyChestplateEnchantments)),(id=diamond_helmet,Count=1,tag=(Enchantments=#luckyHelmetEnchantments))],HandDropChances=[0.5f,0f],ArmorDropChances=[0.3f,0.3f,0.3f,0.3f],CustomName=#jsonStr(text="Bob",color=blue,bold=true),CustomNameVisible=true))@luck=-2
+[14Apr2025 22:27:20.730] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: ID=rotten_flesh@luck=-1
+[14Apr2025 22:27:46.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft was slain by Bob
+[14Apr2025 22:28:02.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
+[14Apr2025 22:28:43.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Adventure Mode]
+[14Apr2025 22:28:51.090] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=structure,ID=giant_lucky_block_good,rotation=#pDirect@luck=2
+[14Apr2025 22:28:53.249] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(group(ID=giant_block_break_stage_1;ID=giant_block_break_stage_2,delay=1;ID=giant_block_break_stage_3,delay=2;ID=giant_block_break_stage_4,delay=3;ID=giant_block_break_stage_5,delay=4),type=structure,pos=[-236.5,82.0,-285.5],rotation=0;type=fill,ID=air,pos=[-241,82,-293],pos2=[-234,89,-286],delay=5;type=entity,ID=firework_rocket,pos=[-237,86,-289],posOffset=(#rand(-4,4),#rand(-4,4),#rand(-4,4)),amount=50,NBTTag=(LifeTime=5,FireworksItem=(id=firework_rocket,Count=1,tag=#randFireworksRocket)),delay=5;group(ID=iron_ingot;ID=gold_ingot;ID=diamond;ID=emerald),pos=[-237,86,-289],amount=#rand(16,24),delay=5)
+[14Apr2025 22:29:00.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito has made the advancement [Diamonds!]
+[14Apr2025 22:29:00.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito has made the advancement [Acquire Hardware]
+[14Apr2025 22:29:08.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
+[14Apr2025 22:29:09.517] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: ID=stick@luck=-1
+[14Apr2025 22:29:16.173] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(ID=quartz_slab,amount=#rand(4,8);ID=nether_quartz_ore,amount=#rand(16,32);ID=quartz_block,amount=#rand(4,8);ID=quartz_block,damage=1,amount=#rand(4,8);ID=quartz_block,damage=2,amount=#rand(4,8);ID=quartz_stairs,amount=#rand(4,8);ID=quartz,amount=#rand(24,32);type=particle,ID=splashpotion,potion="invisibility")@luck=1
+[14Apr2025 22:29:18.457] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: ID=beacon@luck=2
+[14Apr2025 22:29:21.665] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=pig,NBTTag=(Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=villager,VillagerData=(profession=nitwit))])])])])])])])])@luck=0
+[14Apr2025 22:29:27.254] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(ID=golden_helmet;ID=golden_chestplate;ID=golden_leggings;ID=golden_boots;ID=golden_horse_armor)@luck=1
+[14Apr2025 22:29:30.573] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=#randList(horse,skeleton_horse,zombie_horse),amount=12,posOffset=#circleOffset(4),NBTTag=(Tame=true,Owner=#pUUIDArray)@luck=1
+[14Apr2025 22:29:34.542] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=item,ID=lucky:lucky_bow@chance=1.5@luck=2
+[14Apr2025 22:29:34.557] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group:1:(group(ID=porkchop,amount=#rand(8,16);ID=cooked_porkchop,amount=#rand(4,8));group(ID=salmon,amount=#rand(8,16);ID=cooked_salmon,amount=#rand(4,8));group(ID=beef,amount=#rand(8,16);ID=cooked_beef,amount=#rand(4,8));group(ID=chicken,amount=#rand(8,16);ID=cooked_chicken,amount=#rand(4,8));group(ID=mutton,amount=#rand(8,16);ID=cooked_mutton,amount=#rand(4,8));group(ID=rabbit,amount=#rand(8,16);ID=cooked_rabbit,amount=#rand(4,8)))@luck=1
+[14Apr2025 22:29:37.071] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=item,ID=lucky:lucky_sword@chance=1.5@luck=2
+[14Apr2025 22:29:40.802] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=item,ID=lucky:lucky_potion,NBTTag=(Luck=#randList(100,-100)),amount=#rand(10,15)@chance=1.5@luck=2
+[14Apr2025 22:29:43.741] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=strength,range=4,amplifier=1,duration=600;type=effect,ID=resistance,range=4,amplifier=1,duration=600;type=particle,ID=splashpotion,potion=strength;type=item,ID=iron_sword,posOffset=#circleOffset(0.0,2.0);type=item,ID=iron_helmet,posOffset=#circleOffset(0.0,2.0);type=item,ID=iron_chestplate,posOffset=#circleOffset(0.0,2.0);type=item,ID=iron_leggings,posOffset=#circleOffset(0.0,2.0);type=item,ID=iron_boots,posOffset=#circleOffset(0.0,2.0))@luck=2
