@@ -1,0 +1,90 @@
+[14Apr2025 21:00:41.485] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[14Apr2025 21:00:41.493] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
+[14Apr2025 21:00:41.609] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[14Apr2025 21:00:41.716] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server-god/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[14Apr2025 21:00:42.023] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-god/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[14Apr2025 21:00:42.025] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-god/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[14Apr2025 21:00:42.027] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-god/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[14Apr2025 21:00:42.028] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-god/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[14Apr2025 21:00:42.145] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[14Apr2025 21:00:44.011] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[14Apr2025 21:00:52.050] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[14Apr2025 21:00:52.053] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[14Apr2025 21:00:52.785] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[14Apr2025 21:00:53.227] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[14Apr2025 21:00:54.669] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14Apr2025 21:00:54.806] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:ultimate_lucky_block Expected: 1003 Got: 498
+[14Apr2025 21:00:54.806] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:bananapeel Expected: 1004 Got: 763
+[14Apr2025 21:00:54.807] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:pro_gamer_pc Expected: 1005 Got: 764
+[14Apr2025 21:00:54.807] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:therock Expected: 1255 Got: 372
+[14Apr2025 21:00:54.808] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:bubblesstick Expected: 1256 Got: 976
+[14Apr2025 21:00:54.808] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:toilet_paper Expected: 1257 Got: 977
+[14Apr2025 21:00:54.808] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:toilet_paper_gun Expected: 1258 Got: 978
+[14Apr2025 21:00:54.808] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:combineddiamondarmor_helmet Expected: 1259 Got: 979
+[14Apr2025 21:00:54.809] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:combineddiamondarmor_chestplate Expected: 1260 Got: 980
+[14Apr2025 21:00:54.809] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:combineddiamondarmor_leggings Expected: 1261 Got: 981
+[14Apr2025 21:00:54.809] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:combineddiamondarmor_boots Expected: 1262 Got: 982
+[14Apr2025 21:00:54.809] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:ultimate_lucky_block Expected: 1263 Got: 983
+[14Apr2025 21:00:54.810] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:bananapeel Expected: 1264 Got: 984
+[14Apr2025 21:00:54.810] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:banana Expected: 1265 Got: 985
+[14Apr2025 21:00:54.810] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:bananapickaxe Expected: 1266 Got: 986
+[14Apr2025 21:00:54.810] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:pro_gamer_pc Expected: 1267 Got: 987
+[14Apr2025 21:00:54.810] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:toothpaste Expected: 1268 Got: 988
+[14Apr2025 21:00:54.811] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:bananapistol Expected: 1269 Got: 989
+[14Apr2025 21:00:54.811] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:hairdryer Expected: 1270 Got: 990
+[14Apr2025 21:00:54.812] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:therocksound Expected: 1474 Got: 831
+[14Apr2025 21:00:54.812] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:toilet_paperproj Expected: 124 Got: 108
+[14Apr2025 21:00:54.812] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:bananaproj Expected: 125 Got: 109
+[14Apr2025 21:00:54.812] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: ultimate_lucky_block_byctoilcha:fire Expected: 126 Got: 110
+[14Apr2025 21:00:55.629] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server-god/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/assets/.mcassetsroot' uses unexpected schema
+[14Apr2025 21:00:55.629] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server-god/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/data/.mcassetsroot' uses unexpected schema
+[14Apr2025 21:00:57.819] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[14Apr2025 21:00:57.958] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[14Apr2025 21:00:58.587] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[14Apr2025 21:00:58.588] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[14Apr2025 21:00:58.588] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[14Apr2025 21:00:58.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[14Apr2025 21:00:58.704] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[14Apr2025 21:00:58.747] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[14Apr2025 21:00:58.896] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[14Apr2025 21:00:59.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[14Apr2025 21:01:04.982] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 21:01:04.986] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 21:01:04.987] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 21:01:04.991] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 21:01:04.992] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 21:01:04.996] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 21:01:06.338] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 21:01:06.349] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 21:01:06.354] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 21:01:06.357] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 21:01:06.358] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 21:01:06.358] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 21:01:06.363] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 21:01:06.363] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 21:01:06.369] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 21:01:06.668] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Apr2025 21:01:07.170] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
+[14Apr2025 21:01:07.668] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
+[14Apr2025 21:01:08.004] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8836 ms
+[14Apr2025 21:01:08.005] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.147s)! For help, type "help"
+[14Apr2025 21:01:08.025] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[14Apr2025 21:03:06.501] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Iaqocraft is 6b94834c-3a61-451a-889e-c47e334a64d5
+[14Apr2025 21:03:08.940] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Iaqocraft[/127.32.141.209:46843] logged in with entity id 1 at (-8.5, 5.0, -5.5)
+[14Apr2025 21:03:09.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft joined the game
+[14Apr2025 21:03:41.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Clear a random player in 3 seconds !
+[14Apr2025 21:04:47.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Transform your diamonds items into wood items !
+[14Apr2025 21:05:02.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FIGHT !
+[14Apr2025 21:05:02.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Husk army !
+[14Apr2025 21:05:19.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft was killed
+[14Apr2025 21:05:19.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Killed 12 entities]
+[14Apr2025 21:05:47.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm sure you like rain (Laughs of evil person)
+[14Apr2025 21:06:49.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Creeper...
+[14Apr2025 21:06:49.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...Supercharged !
+[14Apr2025 21:07:00.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This time you can't escape me !
+[14Apr2025 21:07:15.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Just a friend for you
+[14Apr2025 21:07:19.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm sure you like rain (Laughs of evil person)
+[14Apr2025 21:07:24.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Brush your teeth bro
+[14Apr2025 21:07:40.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WTF
+[14Apr2025 21:08:30.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
+[14Apr2025 21:08:37.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set spawn point to 3, 4, -15 [0.0] in minecraft:overworld for Iaqocraft]
