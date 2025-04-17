@@ -1,294 +1,308 @@
-[14Apr2025 22:19:45.562] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[14Apr2025 22:19:45.566] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
-[14Apr2025 22:19:45.686] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[14Apr2025 22:19:45.735] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server-god/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[14Apr2025 22:19:45.974] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-god/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[14Apr2025 22:19:45.975] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-god/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[14Apr2025 22:19:45.977] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-god/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[14Apr2025 22:19:45.979] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-god/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[14Apr2025 22:19:46.068] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[14Apr2025 22:19:47.509] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[14Apr2025 22:19:52.943] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[14Apr2025 22:19:52.945] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[14Apr2025 22:19:54.179] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[14Apr2025 22:19:54.749] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[14Apr2025 22:19:55.280] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14Apr2025 22:19:55.954] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server-god/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/assets/.mcassetsroot' uses unexpected schema
-[14Apr2025 22:19:55.954] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server-god/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/data/.mcassetsroot' uses unexpected schema
-[14Apr2025 22:19:57.799] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[14Apr2025 22:19:57.928] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[14Apr2025 22:19:58.396] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[14Apr2025 22:19:58.397] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[14Apr2025 22:19:58.397] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[14Apr2025 22:19:58.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[14Apr2025 22:19:58.544] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[14Apr2025 22:19:58.569] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[14Apr2025 22:19:58.723] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[14Apr2025 22:19:58.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[14Apr2025 22:20:04.372] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Apr2025 22:20:04.375] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Apr2025 22:20:04.377] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Apr2025 22:20:04.378] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Apr2025 22:20:04.379] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Apr2025 22:20:04.380] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Apr2025 22:20:04.382] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Apr2025 22:20:04.382] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Apr2025 22:20:04.383] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Apr2025 22:20:04.385] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Apr2025 22:20:04.386] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Apr2025 22:20:04.432] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Apr2025 22:20:04.931] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
-[14Apr2025 22:20:05.369] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6439 ms
-[14Apr2025 22:20:05.370] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (6.693s)! For help, type "help"
-[14Apr2025 22:20:05.389] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[14Apr2025 22:22:13.141] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Iaqocraft is 6b94834c-3a61-451a-889e-c47e334a64d5
-[14Apr2025 22:22:15.484] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Iaqocraft[/127.32.141.209:46649] logged in with entity id 10 at (-183.5, 81.0, -259.5)
-[14Apr2025 22:22:15.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft joined the game
-[14Apr2025 22:22:37.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 22:22:50.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 22:25:35.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 22:25:38.012] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Poubasadito is a4a491d0-8fa2-4d1f-890f-81d9348d95b3
-[14Apr2025 22:25:40.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 22:25:41.043] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Poubasadito[/127.222.186.46:43967] logged in with entity id 16 at (-187.5, 81.0, -260.5)
-[14Apr2025 22:25:41.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito joined the game
-[14Apr2025 22:26:03.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Gamerule keepInventory is now set to: true]
-[14Apr2025 22:26:22.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 22:26:25.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 22:26:48.808] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: ID=#randList(dandelion,poppy,blue_orchid,allium,azure_bluet,pink_tulip,oxeye_daisy),amount=64@luck=0
-[14Apr2025 22:26:51.272] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(ID=stone_sword;ID=stone_shovel;ID=stone_pickaxe;ID=stone_axe;ID=stone_hoe)@luck=0
-[14Apr2025 22:26:52.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft has made the advancement [Getting an Upgrade]
-[14Apr2025 22:26:56.748] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: ID=nether_star@luck=2
-[14Apr2025 22:27:00.124] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=structure,ID=wishing_well;type=message,ID="A wishing well? Maybe you should throw in a coin...";type=command,ID=/give #pName gold_nugget{display:{Name:"{\"text\":\"Coin\",\"color\":\"gold\"}"}};type=block,ID=lucky:lucky_block,posY=#bPosY-3,NBTTag=(Drops=["group(type=message,ID=\"$eYour wish came true! (If you like potatoes)\";type=block,ID=air,posY='#'bPosY+3;type=block,ID=beacon,posY='#'bPosY+2;ID=potato,amount=128,posY='#'bPosY+10,posOffset='#'circleOffset(2);ID=baked_potato,amount=64,posY='#'bPosY+10,posOffset='#'circleOffset(2);ID=poisonous_potato,amount=32,posY='#'bPosY+10,posOffset='#'circleOffset(2))"]))@luck=1
-[14Apr2025 22:27:03.492] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=message,ID="Your wish came true! (If you like potatoes)";type=block,ID=air,posY=#bPosY+3;type=block,ID=beacon,posY=#bPosY+2;ID=potato,amount=128,posY=#bPosY+10,posOffset=#circleOffset(2);ID=baked_potato,amount=64,posY=#bPosY+10,posOffset=#circleOffset(2);ID=poisonous_potato,amount=32,posY=#bPosY+10,posOffset=#circleOffset(2))
-[14Apr2025 22:27:07.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito has made the advancement [Bring Home the Beacon]
-[14Apr2025 22:27:07.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft has made the advancement [Bring Home the Beacon]
-[14Apr2025 22:27:13.671] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(ID=prismarine,amount=#rand(4,8);ID=prismarine,damage=1,amount=#rand(4,8);ID=prismarine,damage=2,amount=#rand(4,8);ID=sea_lantern,amount=#rand(4,8);ID=prismarine_shard,amount=#rand(15,30);ID=prismarine_crystals,amount=#rand(10,20);type=particle,ID=splashpotion,potion="invisibility")@luck=1
-[14Apr2025 22:27:15.322] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: ID=obsidian,amount=14@luck=1
-[14Apr2025 22:27:15.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft has made the advancement [Ice Bucket Challenge]
-[14Apr2025 22:27:18.660] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=difficulty,ID=hard;type=entity,ID=zombie,NBTTag=(HandItems=[(id=diamond_sword,Count=1,tag=(Enchantments=#luckySwordEnchantments))],ArmorItems=[(id=diamond_boots,Count=1,tag=(Enchantments=#luckyBootsEnchantments)),(id=diamond_leggings,Count=1,tag=(Enchantments=#luckyLeggingsEnchantments)),(id=diamond_chestplate,Count=1,tag=(Enchantments=#luckyChestplateEnchantments)),(id=diamond_helmet,Count=1,tag=(Enchantments=#luckyHelmetEnchantments))],HandDropChances=[0.5f,0f],ArmorDropChances=[0.3f,0.3f,0.3f,0.3f],CustomName=#jsonStr(text="Bob",color=blue,bold=true),CustomNameVisible=true))@luck=-2
-[14Apr2025 22:27:20.730] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: ID=rotten_flesh@luck=-1
-[14Apr2025 22:27:46.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft was slain by Bob
-[14Apr2025 22:28:02.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 22:28:43.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Adventure Mode]
-[14Apr2025 22:28:51.090] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=structure,ID=giant_lucky_block_good,rotation=#pDirect@luck=2
-[14Apr2025 22:28:53.249] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(group(ID=giant_block_break_stage_1;ID=giant_block_break_stage_2,delay=1;ID=giant_block_break_stage_3,delay=2;ID=giant_block_break_stage_4,delay=3;ID=giant_block_break_stage_5,delay=4),type=structure,pos=[-236.5,82.0,-285.5],rotation=0;type=fill,ID=air,pos=[-241,82,-293],pos2=[-234,89,-286],delay=5;type=entity,ID=firework_rocket,pos=[-237,86,-289],posOffset=(#rand(-4,4),#rand(-4,4),#rand(-4,4)),amount=50,NBTTag=(LifeTime=5,FireworksItem=(id=firework_rocket,Count=1,tag=#randFireworksRocket)),delay=5;group(ID=iron_ingot;ID=gold_ingot;ID=diamond;ID=emerald),pos=[-237,86,-289],amount=#rand(16,24),delay=5)
-[14Apr2025 22:29:00.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito has made the advancement [Diamonds!]
-[14Apr2025 22:29:00.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito has made the advancement [Acquire Hardware]
-[14Apr2025 22:29:08.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 22:29:09.517] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: ID=stick@luck=-1
-[14Apr2025 22:29:16.173] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(ID=quartz_slab,amount=#rand(4,8);ID=nether_quartz_ore,amount=#rand(16,32);ID=quartz_block,amount=#rand(4,8);ID=quartz_block,damage=1,amount=#rand(4,8);ID=quartz_block,damage=2,amount=#rand(4,8);ID=quartz_stairs,amount=#rand(4,8);ID=quartz,amount=#rand(24,32);type=particle,ID=splashpotion,potion="invisibility")@luck=1
-[14Apr2025 22:29:18.457] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: ID=beacon@luck=2
-[14Apr2025 22:29:21.665] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=pig,NBTTag=(Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=villager,VillagerData=(profession=nitwit))])])])])])])])])@luck=0
-[14Apr2025 22:29:27.254] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(ID=golden_helmet;ID=golden_chestplate;ID=golden_leggings;ID=golden_boots;ID=golden_horse_armor)@luck=1
-[14Apr2025 22:29:30.573] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=#randList(horse,skeleton_horse,zombie_horse),amount=12,posOffset=#circleOffset(4),NBTTag=(Tame=true,Owner=#pUUIDArray)@luck=1
-[14Apr2025 22:29:34.542] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=item,ID=lucky:lucky_bow@chance=1.5@luck=2
-[14Apr2025 22:29:34.557] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group:1:(group(ID=porkchop,amount=#rand(8,16);ID=cooked_porkchop,amount=#rand(4,8));group(ID=salmon,amount=#rand(8,16);ID=cooked_salmon,amount=#rand(4,8));group(ID=beef,amount=#rand(8,16);ID=cooked_beef,amount=#rand(4,8));group(ID=chicken,amount=#rand(8,16);ID=cooked_chicken,amount=#rand(4,8));group(ID=mutton,amount=#rand(8,16);ID=cooked_mutton,amount=#rand(4,8));group(ID=rabbit,amount=#rand(8,16);ID=cooked_rabbit,amount=#rand(4,8)))@luck=1
-[14Apr2025 22:29:37.071] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=item,ID=lucky:lucky_sword@chance=1.5@luck=2
-[14Apr2025 22:29:40.802] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=item,ID=lucky:lucky_potion,NBTTag=(Luck=#randList(100,-100)),amount=#rand(10,15)@chance=1.5@luck=2
-[14Apr2025 22:29:43.741] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=strength,range=4,amplifier=1,duration=600;type=effect,ID=resistance,range=4,amplifier=1,duration=600;type=particle,ID=splashpotion,potion=strength;type=item,ID=iron_sword,posOffset=#circleOffset(0.0,2.0);type=item,ID=iron_helmet,posOffset=#circleOffset(0.0,2.0);type=item,ID=iron_chestplate,posOffset=#circleOffset(0.0,2.0);type=item,ID=iron_leggings,posOffset=#circleOffset(0.0,2.0);type=item,ID=iron_boots,posOffset=#circleOffset(0.0,2.0))@luck=2
-[14Apr2025 22:29:43.941] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=health_boost,range=4,amplifier=1,duration=600;type=effect,ID=absorption,range=4,amplifier=1,duration=600;type=particle,ID=splashpotion,potion=healing;type=entity,ID=horse,NBTTag=(OwnerUUID=#pUUID,ArmorItem=(id=golden_horse_armor,Count=1),SaddleItem=(id=saddle,Count=1)))@luck=2
-[14Apr2025 22:29:43.991] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=saturation,range=4,amplifier=3,duration=600;type=particle,ID=splashpotion,potion=strength;type=block,ID=cake;type=item,ID=#randList(apple,baked_potato,bread,carrot,cooked_chicken,cooked_salmon,cooked_mutton,cooked_porkchop,cooked_beef,cooked_rabbit,cookie,golden_apple,golden_carrot,melon,mushroom_stew,potato,pumpkin_pie,rabbit_stew,beef,salmon,mutton,porkchop),amount=20)@luck=2
-[14Apr2025 22:29:44.174] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=nothing@luck=0@chance=24
-[14Apr2025 22:29:44.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft has made the advancement [Suit Up]
-[14Apr2025 22:29:44.841] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=invisibility,range=4,duration=300;type=particle,ID=splashpotion,potion=invisibility;type=particle,ID=poof,size=(2.0,1.0,2.0),particleAmount=300,amount=30,delay=#rand(0.0,8.0))@luck=2
-[14Apr2025 22:29:44.941] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=experience_bottle,NBTTag=(Motion=#motionFromDirection(#rand(0,360),-70,0.4)),amount=#rand(20,30)@luck=2
-[14Apr2025 22:29:45.191] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=strength,range=4,amplifier=1,duration=600;type=effect,ID=resistance,range=4,amplifier=1,duration=600;type=particle,ID=splashpotion,potion=strength;type=item,ID=iron_sword,posOffset=#circleOffset(0.0,2.0);type=item,ID=iron_helmet,posOffset=#circleOffset(0.0,2.0);type=item,ID=iron_chestplate,posOffset=#circleOffset(0.0,2.0);type=item,ID=iron_leggings,posOffset=#circleOffset(0.0,2.0);type=item,ID=iron_boots,posOffset=#circleOffset(0.0,2.0))@luck=2
-[14Apr2025 22:29:45.397] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=item,ID=anvil;ID=enchanted_book,NBTTag=(StoredEnchantments=#randEnchantment),posOffset=#circleOffset(0.0,2.0),amount=#rand(7,10);type=particle,ID=splashpotion,potion=strength)@luck=2
-[14Apr2025 22:29:45.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito has made the advancement [Suit Up]
-[14Apr2025 22:29:58.263] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=nothing@luck=0@chance=24
-[14Apr2025 22:30:02.061] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=special_knockback,range=6,excludePlayer=true,power=1.8,pos=#pPos,delay=0.1;type=particle,ID=poof,size=(1.0,0.3,1.0),particleAmount=500,pos=#pExactPos)@luck=2
-[14Apr2025 22:30:04.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito was slain by Iaqocraft
-[14Apr2025 22:30:04.657] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=special_knockback,target=hitEntity,directionPitch=-90,power=1.3,delay=0.1;type=particle,ID=poof,size=(0.5,0.5,0.5),particleAmount=500)@luck=2
-[14Apr2025 22:30:08.340] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=strength,range=4,amplifier=1,duration=600;type=effect,ID=resistance,range=4,amplifier=1,duration=600;type=particle,ID=splashpotion,potion=strength;type=item,ID=iron_sword,posOffset=#circleOffset(0.0,2.0);type=item,ID=iron_helmet,posOffset=#circleOffset(0.0,2.0);type=item,ID=iron_chestplate,posOffset=#circleOffset(0.0,2.0);type=item,ID=iron_leggings,posOffset=#circleOffset(0.0,2.0);type=item,ID=iron_boots,posOffset=#circleOffset(0.0,2.0))@luck=2
-[14Apr2025 22:30:08.342] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=speed,range=4,amplifier=2,duration=600;type=particle,ID=splashpotion,potion=swiftness;type=item,ID=#randList(cookie,sugar),posOffset=#circleOffset(0.0,2.0),amount=30)@luck=2
-[14Apr2025 22:30:08.690] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=speed,range=4,amplifier=2,duration=600;type=particle,ID=splashpotion,potion=swiftness;type=item,ID=#randList(cookie,sugar),posOffset=#circleOffset(0.0,2.0),amount=30)@luck=2
-[14Apr2025 22:30:26.008] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=lucky:lucky_projectile,pos=#pExactPos,posOffsetY=1.5,NBTTag=(Motion=#motionFromDirection(#pYaw,#pPitch,1.5),item=(id=cobweb,Count=1),impact=["type=fill,ID=cobweb,size=(2,2,2)"])@luck=2@chance=0.5
-[14Apr2025 22:30:26.091] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=fill,ID=cobweb,size=(2,2,2)
-[14Apr2025 22:30:26.960] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=nothing@luck=0@chance=24
-[14Apr2025 22:30:28.010] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=nothing@luck=0@chance=24
-[14Apr2025 22:30:33.240] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=poison,range=4,duration=30;type=particle,ID=splashpotion,potion=poison;type=difficulty,ID=hard;type=entity,ID=cave_spider;type=item,ID=#randList(rotten_flesh,spider_eye,fermented_spider_eye),posOffset=#circleOffset(0.0,2.0),amount=30)@luck=-2
-[14Apr2025 22:30:43.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 22:30:52.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 22:30:53.046] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: ID=beacon@luck=2
-[14Apr2025 22:30:53.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Adventure Mode]
-[14Apr2025 22:31:00.050] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(ID=fishing_rod;ID=#randList(cod,pufferfish,salmon,tropical_fish),amount=#rand(10,20))@luck=1
-[14Apr2025 22:31:01.856] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(group:1:(ID=#randColor_wool,amount=#rand(32,64);ID=#randColor_terracotta,amount=#rand(32,64);ID=#randColor_dye,amount=#rand(32,64));type=particle,ID=splashpotion,potion=#randPotion,amount=10)@luck=1
-[14Apr2025 22:31:06.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 22:31:07.355] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=fill,ID=air,size=(1,8,1);type=entity,ID=falling_block,posY=#bPosY+7,NBTTag=(BlockState=(Name=emerald_block));type=particle,ID=happy_villager,size=(1,2,1),particleAmount=500;type=sound,ID=block.grass.break)@luck=0
-[14Apr2025 22:31:15.366] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=item,ID=lucky:lucky_potion,NBTTag=(Luck=#randList(100,-100)),amount=#rand(10,15)@chance=1.5@luck=2
-[14Apr2025 22:31:27.540] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=block,ID=fire,posOffset=#circleOffset(0,3),amount=50;type=block,ID=flowing_lava;type=particle,ID=splashpotion,potion=fire_resistance)@luck=-2
-[14Apr2025 22:31:31.041] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=wither,range=4,duration=30;type=particle,ID=splashpotion,potion=weakness;type=item,ID=bone,posOffset=#circleOffset(0.0,2.0),amount=10;type=item,ID=bone_meal,posOffset=#circleOffset(0.0,2.0),amount=10;type=item,ID=skeleton_skull,posOffset=#circleOffset(0.0,2.0))@luck=-2
-[14Apr2025 22:31:35.441] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=invisibility,range=4,duration=300;type=particle,ID=splashpotion,potion=invisibility;type=particle,ID=poof,size=(2.0,1.0,2.0),particleAmount=300,amount=30,delay=#rand(0.0,8.0))@luck=2
-[14Apr2025 22:31:35.940] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=experience_bottle,NBTTag=(Motion=#motionFromDirection(#rand(0,360),-70,0.4)),amount=#rand(20,30)@luck=2
-[14Apr2025 22:31:36.542] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=experience_bottle,NBTTag=(Motion=#motionFromDirection(#rand(0,360),-70,0.4)),amount=#rand(20,30)@luck=2
-[14Apr2025 22:31:40.791] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=saturation,range=4,amplifier=3,duration=600;type=particle,ID=splashpotion,potion=strength;type=block,ID=cake;type=item,ID=#randList(apple,baked_potato,bread,carrot,cooked_chicken,cooked_salmon,cooked_mutton,cooked_porkchop,cooked_beef,cooked_rabbit,cookie,golden_apple,golden_carrot,melon,mushroom_stew,potato,pumpkin_pie,rabbit_stew,beef,salmon,mutton,porkchop),amount=20)@luck=2
-[14Apr2025 22:31:40.941] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=entity,ID=potion,NBTTag=(Item=(id=splash_potion,tag=(Potion=#randList(night_vision,leaping,fire_resistance,swiftness,water_breathing,healing,regeneration,strength)),Count=1),Motion=#motionFromDirection(#rand(0,360),-70,0.4)),amount=10)@luck=2
-[14Apr2025 22:31:41.142] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=invisibility,range=4,duration=300;type=particle,ID=splashpotion,potion=invisibility;type=particle,ID=poof,size=(2.0,1.0,2.0),particleAmount=300,amount=30,delay=#rand(0.0,8.0))@luck=2
-[14Apr2025 22:31:41.341] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=item,ID=anvil;ID=enchanted_book,NBTTag=(StoredEnchantments=#randEnchantment),posOffset=#circleOffset(0.0,2.0),amount=#rand(7,10);type=particle,ID=splashpotion,potion=strength)@luck=2
-[14Apr2025 22:31:41.542] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=saturation,range=4,amplifier=3,duration=600;type=particle,ID=splashpotion,potion=strength;type=block,ID=cake;type=item,ID=#randList(apple,baked_potato,bread,carrot,cooked_chicken,cooked_salmon,cooked_mutton,cooked_porkchop,cooked_beef,cooked_rabbit,cookie,golden_apple,golden_carrot,melon,mushroom_stew,potato,pumpkin_pie,rabbit_stew,beef,salmon,mutton,porkchop),amount=20)@luck=2
-[14Apr2025 22:31:41.691] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=entity,ID=potion,NBTTag=(Item=(id=splash_potion,tag=(Potion=#randList(night_vision,leaping,fire_resistance,swiftness,water_breathing,healing,regeneration,strength)),Count=1),Motion=#motionFromDirection(#rand(0,360),-70,0.4)),amount=10)@luck=2
-[14Apr2025 22:31:51.360] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=pig,NBTTag=(Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=villager,VillagerData=(profession=nitwit))])])])])])])])])@luck=0
-[14Apr2025 22:31:53.814] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=special_fire,range=4,excludePlayer=true,duration=#rand(5,10);type=particle,ID=flame,pos=#pExactPos,size=(1.0,0.3,1.0),particleAmount=2000)@luck=2
-[14Apr2025 22:31:54.447] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: ID=end_portal_frame,amount=#rand(2,6)@luck=2
-[14Apr2025 22:31:55.366] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=nothing@luck=0@chance=24
-[14Apr2025 22:31:57.055] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=nothing@luck=0@chance=24
-[14Apr2025 22:31:58.792] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=difficulty,ID=hard;type=entity,ID=rabbit,NBTTag=(RabbitType=99))@luck=-1
-[14Apr2025 22:32:01.257] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Rabbit['The Killer Bunny'/1519, l='ServerLevel[Lucky Blocks Race 3]', x=-297.98, y=82.52, z=-285.50] died: The Killer Bunny was slain by Poubasadito
-[14Apr2025 22:32:04.664] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=item,ID=lucky:lucky_potion,NBTTag=(Luck=#randList(100,-100)),amount=#rand(10,15)@chance=1.5@luck=2
-[14Apr2025 22:32:10.891] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=health_boost,range=4,amplifier=1,duration=600;type=effect,ID=absorption,range=4,amplifier=1,duration=600;type=particle,ID=splashpotion,potion=healing;type=entity,ID=horse,NBTTag=(OwnerUUID=#pUUID,ArmorItem=(id=golden_horse_armor,Count=1),SaddleItem=(id=saddle,Count=1)))@luck=2
-[14Apr2025 22:32:18.791] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=difficulty,ID=hard;type=explosion,damage=4;type=particle,ID=splashpotion,potion=harming)@luck=-2
-[14Apr2025 22:32:18.807] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/1507, l='ServerLevel[Lucky Blocks Race 3]', x=-299.47, y=84.30, z=-287.40] died, message: 'Nitwit blew up'
-[14Apr2025 22:32:19.293] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=experience_bottle,NBTTag=(Motion=#randLaunchMotion),amount=#rand(16,32)@luck=2
-[14Apr2025 22:32:19.642] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=special_knockback,power=2.5,range=4,delay=0.1;type=particle,ID=splashpotion,potion=swiftness;type=particle,ID=poof,size=(1.5,1.0,1.5),particleAmount=500)@luck=-2
-[14Apr2025 22:32:19.643] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=difficulty,ID=hard;type=explosion,damage=4;type=particle,ID=splashpotion,potion=harming)@luck=-2
-[14Apr2025 22:32:19.694] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=wither,range=4,duration=30;type=particle,ID=splashpotion,potion=weakness;type=item,ID=bone,posOffset=#circleOffset(0.0,2.0),amount=10;type=item,ID=bone_meal,posOffset=#circleOffset(0.0,2.0),amount=10;type=item,ID=skeleton_skull,posOffset=#circleOffset(0.0,2.0))@luck=-2
-[14Apr2025 22:32:19.743] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=wither,range=4,duration=30;type=particle,ID=splashpotion,potion=weakness;type=item,ID=bone,posOffset=#circleOffset(0.0,2.0),amount=10;type=item,ID=bone_meal,posOffset=#circleOffset(0.0,2.0),amount=10;type=item,ID=skeleton_skull,posOffset=#circleOffset(0.0,2.0))@luck=-2
-[14Apr2025 22:32:20.591] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=special_knockback,power=2.5,range=4,delay=0.1;type=particle,ID=splashpotion,potion=swiftness;type=particle,ID=poof,size=(1.5,1.0,1.5),particleAmount=500)@luck=-2
-[14Apr2025 22:32:23.466] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group:#rand(1,2):(ID=diamond_sword;ID=diamond_shovel;ID=diamond_pickaxe;ID=diamond_axe;ID=diamond_hoe)@luck=2
-[14Apr2025 22:32:37.570] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=block,ID=chest,tileEntity=(Items=#chestLootTable("chests/shipwreck_map"))@luck=1
-[14Apr2025 22:32:39.091] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=experience_bottle,NBTTag=(Motion=#motionFromDirection(#rand(0,360),-70,0.4)),amount=#rand(20,30)@luck=2
-[14Apr2025 22:32:45.702] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=tnt,NBTTag=(Fuse=50b,Motion=#randLaunchMotion),amount=15@luck=-2
-[14Apr2025 22:32:46.009] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: ID=beacon@luck=2
-[14Apr2025 22:32:47.852] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(ID=prismarine,amount=#rand(4,8);ID=prismarine,damage=1,amount=#rand(4,8);ID=prismarine,damage=2,amount=#rand(4,8);ID=sea_lantern,amount=#rand(4,8);ID=prismarine_shard,amount=#rand(15,30);ID=prismarine_crystals,amount=#rand(10,20);type=particle,ID=splashpotion,potion="invisibility")@luck=1
-[14Apr2025 22:32:51.262] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: ID=ender_chest,amount=2@luck=0
-[14Apr2025 22:32:51.942] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=entity,ID=cat,amount=#rand(5,10),posOffset=#circleOffset(3),NBTTag=(CatType=#rand(0,10),CollarColor=#rand(0,15),Owner=#pUUIDArray,Sitting=true);type=particle,ID="heart",size=(2,0,2),particleAmount=20)@luck=1
-[14Apr2025 22:32:53.749] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=entity,ID=wolf,amount=#rand(5,10),posOffset=#circleOffset(3),NBTTag=(CollarColor=#rand(0,15),Owner=#pUUIDArray,Sitting=true);type=particle,ID="heart",size=(2,0,2),particleAmount=20)@luck=1
-[14Apr2025 22:32:55.742] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=block,ID=chest,tileEntity=(Items=#chestLootTable("chests/simple_dungeon"))@luck=1
-[14Apr2025 22:32:56.499] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: ID=saddle,amount=2@luck=0
-[14Apr2025 22:32:59.181] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(ID=iron_ingot,amount=#rand(8,16);ID=gold_ingot,amount=#rand(8,16);ID=diamond,amount=#rand(8,16);ID=emerald,amount=#rand(8,16);ID=lapis_lazuli,amount=#rand(8,16);type=entity,ID=firework_rocket,NBTTag=(LifeTime=20,FireworksItem=(id=firework_rocket,Count=1,tag=#randFireworksRocket)),amount=20,posOffset=#circleOffset(0,2))@luck=2
-[14Apr2025 22:33:00.531] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: ID=obsidian,amount=14@luck=1
-[14Apr2025 22:33:02.048] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group:#rand(1,3):(ID=skeleton_skull;ID=wither_skeleton_skull;ID=zombie_head;ID=player_head;ID=creeper_head)@luck=0
-[14Apr2025 22:33:03.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito has made the advancement [Ice Bucket Challenge]
-[14Apr2025 22:33:03.624] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=tnt,NBTTag=(Fuse=50b,Motion=#randLaunchMotion),amount=15@luck=-2
-[14Apr2025 22:33:05.208] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=block,ID=chest,tileEntity=(Items=#chestLootTable("chests/shipwreck_map"))@luck=1
-[14Apr2025 22:33:06.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft blew up
-[14Apr2025 22:33:06.462] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(ID=jukebox;ID=#randList(music_disc_11,music_disc_13,music_disc_blocks,music_disc_chirp,music_disc_far,music_disc_mall,music_disc_mellohi,music_disc_stal,music_disc_strad,music_disc_wait,music_disc_ward),amount=#rand(1,3))@luck=1
-[14Apr2025 22:33:08.746] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(ID=ender_pearl,amount=#rand(1,3);ID=blaze_rod,amount=#rand(1,3);ID=ghast_tear,amount=#rand(1,3);ID=gold_nugget,amount=#rand(1,3);ID=nether_wart,amount=#rand(1,3);ID=spider_eye,amount=#rand(1,3);ID=fermented_spider_eye,amount=#rand(1,3);ID=blaze_powder,amount=#rand(1,3);ID=magma_cream,amount=#rand(1,3);ID=ender_eye,amount=#rand(1,3);ID=glistering_melon_slice,amount=#rand(1,3);ID=rabbit_foot,amount=#rand(1,3);type=particle,ID=splashpotion,potion="fire_resistance")@luck=2
-[14Apr2025 22:33:15.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito has made the advancement [Into Fire]
-[14Apr2025 22:33:23.996] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: ID=poppy,NBTTag=(display=(Name=#jsonStr(text="Romantic Rose",color=dark_red)))@luck=-1
-[14Apr2025 22:33:26.113] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=structure,ID=bedrock_problem,rotation=#pDirect@luck=-1
-[14Apr2025 22:33:32.946] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: ID=end_portal_frame,amount=#rand(2,6)@luck=2
-[14Apr2025 22:33:35.043] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=difficulty,ID=hard;type=entity,ID=giant)@luck=-2
-[14Apr2025 22:33:44.497] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(ID=golden_helmet;ID=golden_chestplate;ID=golden_leggings;ID=golden_boots;ID=golden_horse_armor)@luck=1
-[14Apr2025 22:33:46.294] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=armor_stand,NBTTag=(Small=true,NoBasePlate=true,ShowArms=true,HandItems=[(id=stone_pickaxe,Count=1)],ArmorItems=[(id=leather_boots,Count=1,tag=(display=(color=#randColor))),(id=leather_leggings,Count=1,tag=(display=(color=#randColor))),(id=leather_chestplate,Count=1,tag=(display=(color=#randColor))),(id=player_head,Count=1,tag=(SkullOwner=#pName))],Rotation=[#pYaw+180f,0f],CustomName=#jsonStr(text="Baby #pName"),CustomNameVisible=true)@luck=0
-[14Apr2025 22:33:46.608] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(ID=fishing_rod;ID=#randList(cod,pufferfish,salmon,tropical_fish),amount=#rand(10,20))@luck=1
-[14Apr2025 22:33:50.764] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=item,ID=lucky:lucky_potion,NBTTag=(Luck=#randList(100,-100)),amount=#rand(10,15)@chance=1.5@luck=2
-[14Apr2025 22:33:50.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito has made the advancement [Getting an Upgrade]
-[14Apr2025 22:33:53.154] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=structure,ID=cage,pos=#pPos,rotation=#pDirect;type=block,ID=lava,pos=(#pPosX,#pPosY+3,#pPosZ))@luck=-2
-[14Apr2025 22:33:58.826] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(group:1:(ID=#randColor_wool,amount=#rand(32,64);ID=#randColor_terracotta,amount=#rand(32,64);ID=#randColor_dye,amount=#rand(32,64));type=particle,ID=splashpotion,potion=#randPotion,amount=10)@luck=1
-[14Apr2025 22:34:02.044] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=structure,ID=water_cage,pos=#pPos@luck=-2
-[14Apr2025 22:34:02.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 22:34:02.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 22:34:04.303] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(ID=quartz_slab,amount=#rand(4,8);ID=nether_quartz_ore,amount=#rand(16,32);ID=quartz_block,amount=#rand(4,8);ID=quartz_block,damage=1,amount=#rand(4,8);ID=quartz_block,damage=2,amount=#rand(4,8);ID=quartz_stairs,amount=#rand(4,8);ID=quartz,amount=#rand(24,32);type=particle,ID=splashpotion,potion="invisibility")@luck=1
-[14Apr2025 22:34:06.607] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=fill,ID=air,size=(1,8,1);type=entity,ID=falling_block,posY=#bPosY+7,NBTTag=(BlockState=(Name=emerald_block));type=particle,ID=happy_villager,size=(1,2,1),particleAmount=500;type=sound,ID=block.grass.break)@luck=0
-[14Apr2025 22:34:16.196] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: ID=nether_star@luck=2
-[14Apr2025 22:34:17.898] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: ID=potion,NBTTag=(Potion="fire_resistance",CustomPotionEffects=#luckyPotionEffects,display=(Name=#jsonStr(text="Hero's Potion",color=blue,bold=true)))@luck=2
-[14Apr2025 22:34:18.292] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=armor_stand,NBTTag=(Small=true,NoBasePlate=true,ShowArms=true,HandItems=[(id=stone_pickaxe,Count=1)],ArmorItems=[(id=leather_boots,Count=1,tag=(display=(color=#randColor))),(id=leather_leggings,Count=1,tag=(display=(color=#randColor))),(id=leather_chestplate,Count=1,tag=(display=(color=#randColor))),(id=player_head,Count=1,tag=(SkullOwner=#pName))],Rotation=[#pYaw+180f,0f],CustomName=#jsonStr(text="Baby #pName"),CustomNameVisible=true)@luck=0
-[14Apr2025 22:34:20.056] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group:1:(type=entity,ID=pig,NBTTag=(CustomName=#jsonStr(text="Lucky Pig",color=yellow,bold=true),CustomNameVisible=true);type=entity,ID=cow,NBTTag=(CustomName=#jsonStr(text="Lucky Cow",color=yellow,bold=true),CustomNameVisible=true);type=entity,ID=chicken,NBTTag=(CustomName=#jsonStr(text="Lucky Chicken",color=yellow,bold=true),CustomNameVisible=true);type=entity,ID=sheep,NBTTag=(CustomName=#jsonStr(text="Lucky Sheep",color=yellow,bold=true),CustomNameVisible=true);type=entity,ID=rabbit,NBTTag=(CustomName=#jsonStr(text="Lucky Rabbit",color=yellow,bold=true),CustomNameVisible=true);type=entity,ID=squid,NBTTag=(CustomName=#jsonStr(text="Unlucky Squid",color=yellow,bold=true),CustomNameVisible=true))@luck=0
-[14Apr2025 22:34:20.349] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=structure,ID=wishing_well;type=message,ID="A wishing well? Maybe you should throw in a coin...";type=command,ID=/give #pName gold_nugget{display:{Name:"{\"text\":\"Coin\",\"color\":\"gold\"}"}};type=block,ID=lucky:lucky_block,posY=#bPosY-3,NBTTag=(Drops=["group(type=message,ID=\"$eYour wish came true! (If you like potatoes)\";type=block,ID=air,posY='#'bPosY+3;type=block,ID=beacon,posY='#'bPosY+2;ID=potato,amount=128,posY='#'bPosY+10,posOffset='#'circleOffset(2);ID=baked_potato,amount=64,posY='#'bPosY+10,posOffset='#'circleOffset(2);ID=poisonous_potato,amount=32,posY='#'bPosY+10,posOffset='#'circleOffset(2))"]))@luck=1
-[14Apr2025 22:34:25.042] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=message,ID="Your wish came true! (If you like potatoes)";type=block,ID=air,posY=#bPosY+3;type=block,ID=beacon,posY=#bPosY+2;ID=potato,amount=128,posY=#bPosY+10,posOffset=#circleOffset(2);ID=baked_potato,amount=64,posY=#bPosY+10,posOffset=#circleOffset(2);ID=poisonous_potato,amount=32,posY=#bPosY+10,posOffset=#circleOffset(2))
-[14Apr2025 22:34:25.398] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Cow['Lucky Cow'/2347, l='ServerLevel[Lucky Blocks Race 3]', x=-411.32, y=81.00, z=-276.53] died: Lucky Cow was slain by Iaqocraft
-[14Apr2025 22:34:29.116] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=entity,ID=cat,amount=#rand(5,10),posOffset=#circleOffset(3),NBTTag=(CatType=#rand(0,10),CollarColor=#rand(0,15),Owner=#pUUIDArray,Sitting=true);type=particle,ID="heart",size=(2,0,2),particleAmount=20)@luck=1
-[14Apr2025 22:34:31.002] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(ID=iron_horse_armor;ID=golden_horse_armor;ID=diamond_horse_armor)@luck=2
-[14Apr2025 22:34:33.101] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: ID=#randList(potion,splash_potion),NBTTag=(Potion=#randPotion),amount=#rand(4,8)@luck=1
-[14Apr2025 22:34:35.016] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=item,ID=lucky:lucky_sword@chance=1.5@luck=2
-[14Apr2025 22:34:35.872] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(ID=golden_apple,amount=#rand(2,4);ID=enchanted_golden_apple,amount=#rand(1,2))@luck=2
-[14Apr2025 22:34:42.443] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=difficulty,ID=hard;type=explosion,damage=4;type=particle,ID=splashpotion,potion=harming)@luck=-2
-[14Apr2025 22:34:42.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft blew up
-[14Apr2025 22:34:42.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito blew up
-[14Apr2025 22:34:43.292] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=instant_damage,range=4;type=particle,ID=splashpotion,potion=harming;type=entity,ID=lucky:lucky_projectile,NBTTag=(Motion=#motionFromDirection(#rand(0,360),-50,0.4),item=(id=iron_sword),damage=4.0),amount=20)@luck=-2
-[14Apr2025 22:34:46.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 22:34:55.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 22:35:14.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 22:35:32.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 22:35:36.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 22:35:37.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 22:35:38.354] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=structure,ID=giant_lucky_block_bad,rotation=#pDirect@luck=-2
-[14Apr2025 22:35:40.199] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(group(ID=giant_block_break_stage_1;ID=giant_block_break_stage_2,delay=1;ID=giant_block_break_stage_3,delay=2;ID=giant_block_break_stage_4,delay=3;ID=giant_block_break_stage_5,delay=4),type=structure,pos=[-446.5,80.0,-284.5],rotation=2;type=fill,ID=air,pos=[-443,80,-278],pos2=[-450,87,-285],delay=5;type=entity,ID=tnt,pos=[-447,84,-282],NBTTag=(Fuse=50b,Motion=#randLaunchMotion),amount=15,delay=5)
-[14Apr2025 22:35:43.068] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=fill,ID=air,size=(1,51,1);type=entity,ID=falling_block,NBTTag=(BlockState=(Name=redstone_block)),posY=#bPosY+5;group(posY=#bPosY+10;posY=#bPosY+15;posY=#bPosY+20;posY=#bPosY+25;posY=#bPosY+30;posY=#bPosY+35;posY=#bPosY+40;posY=#bPosY+45;posY=#bPosY+50),type=entity,ID=falling_block,NBTTag=(BlockState=(Name=tnt)))@luck=2
-[14Apr2025 22:36:04.415] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=special_fire,range=4,excludePlayer=true,duration=#rand(5,10);type=particle,ID=flame,pos=#pExactPos,size=(1.0,0.3,1.0),particleAmount=2000)@luck=2
-[14Apr2025 22:36:11.298] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: ID=saddle,amount=2@luck=0
-[14Apr2025 22:36:23.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 22:36:33.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 22:36:36.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 22:36:39.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 22:36:59.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 22:37:03.343] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=block,ID=fire,posOffset=#circleOffset(0,3),amount=50;type=block,ID=flowing_lava;type=particle,ID=splashpotion,potion=fire_resistance)@luck=-2
-[14Apr2025 22:37:08.243] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=experience_bottle,NBTTag=(Motion=#motionFromDirection(#rand(0,360),-70,0.4)),amount=#rand(20,30)@luck=2
-[14Apr2025 22:37:08.442] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=item,ID=anvil;ID=enchanted_book,NBTTag=(StoredEnchantments=#randEnchantment),posOffset=#circleOffset(0.0,2.0),amount=#rand(7,10);type=particle,ID=splashpotion,potion=strength)@luck=2
-[14Apr2025 22:37:08.642] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=experience_bottle,NBTTag=(Motion=#motionFromDirection(#rand(0,360),-70,0.4)),amount=#rand(20,30)@luck=2
-[14Apr2025 22:37:08.842] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=instant_health,range=4,amplifier=3;type=effect,ID=regeneration,range=4,amplifier=1,duration=300;type=particle,ID=splashpotion,potion=healing;type=particle,ID=heart,size=(1.5,0.5,1.5),particleAmount=300)@luck=2
-[14Apr2025 22:37:09.044] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=instant_health,range=4,amplifier=3;type=effect,ID=regeneration,range=4,amplifier=1,duration=300;type=particle,ID=splashpotion,potion=healing;type=particle,ID=heart,size=(1.5,0.5,1.5),particleAmount=300)@luck=2
-[14Apr2025 22:37:09.265] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=saturation,range=4,amplifier=3,duration=600;type=particle,ID=splashpotion,potion=strength;type=block,ID=cake;type=item,ID=#randList(apple,baked_potato,bread,carrot,cooked_chicken,cooked_salmon,cooked_mutton,cooked_porkchop,cooked_beef,cooked_rabbit,cookie,golden_apple,golden_carrot,melon,mushroom_stew,potato,pumpkin_pie,rabbit_stew,beef,salmon,mutton,porkchop),amount=20)@luck=2
-[14Apr2025 22:37:09.393] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=invisibility,range=4,duration=300;type=particle,ID=splashpotion,potion=invisibility;type=particle,ID=poof,size=(2.0,1.0,2.0),particleAmount=300,amount=30,delay=#rand(0.0,8.0))@luck=2
-[14Apr2025 22:37:09.643] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=invisibility,range=4,duration=300;type=particle,ID=splashpotion,potion=invisibility;type=particle,ID=poof,size=(2.0,1.0,2.0),particleAmount=300,amount=30,delay=#rand(0.0,8.0))@luck=2
-[14Apr2025 22:37:09.845] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=jump_boost,range=4,amplifier=2,duration=600;type=particle,ID=splashpotion,potion=leaping;type=entity,ID=rabbit,posOffset=#circleOffset(0.0,2.0),amount=8)@luck=2
-[14Apr2025 22:37:09.994] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=jump_boost,range=4,amplifier=2,duration=600;type=particle,ID=splashpotion,potion=leaping;type=entity,ID=rabbit,posOffset=#circleOffset(0.0,2.0),amount=8)@luck=2
-[14Apr2025 22:37:10.194] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=health_boost,range=4,amplifier=1,duration=600;type=effect,ID=absorption,range=4,amplifier=1,duration=600;type=particle,ID=splashpotion,potion=healing;type=entity,ID=horse,NBTTag=(OwnerUUID=#pUUID,ArmorItem=(id=golden_horse_armor,Count=1),SaddleItem=(id=saddle,Count=1)))@luck=2
-[14Apr2025 22:37:10.498] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=instant_health,range=4,amplifier=3;type=effect,ID=regeneration,range=4,amplifier=1,duration=300;type=particle,ID=splashpotion,potion=healing;type=particle,ID=heart,size=(1.5,0.5,1.5),particleAmount=300)@luck=2
-[14Apr2025 22:37:41.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft has made the advancement [The End?]
-[14Apr2025 22:37:42.324] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Iaqocraft moved too quickly! 603.5299840781277,-32.530963542657915,241.73637041644807
-[14Apr2025 22:37:43.364] [Server thread/INFO] [net.minecraft.world.level.dimension.end.EndDragonFight/]: Scanning for legacy world dragon fight...
-[14Apr2025 22:37:43.369] [Server thread/INFO] [net.minecraft.world.level.dimension.end.EndDragonFight/]: Found that the dragon has not yet been killed in this world.
-[14Apr2025 22:37:43.978] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
-[14Apr2025 22:37:50.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Teleported Iaqocraft to Poubasadito]
-[14Apr2025 22:37:55.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 22:38:05.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Survival Mode]
-[14Apr2025 22:38:07.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Survival Mode]
-[14Apr2025 22:38:10.591] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=weakness,range=4,duration=30;type=particle,ID=splashpotion,potion=weakness;type=difficulty,ID=hard;type=entity,ID=#randList(zombie,skeleton,spider),posOffset=#circleOffset(0.0,2.0),amount=#rand(7,10))@luck=-2
-[14Apr2025 22:38:13.603] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=poison,target=hitEntity,amplifier=2,duration=5;type=particle,ID=splashpotion,potion=poison)@luck=2
-[14Apr2025 22:38:14.213] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=nothing@luck=0@chance=24
-[14Apr2025 22:38:14.802] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=nothing@luck=0@chance=24
-[14Apr2025 22:38:15.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft has made the advancement [Monster Hunter]
-[14Apr2025 22:38:16.601] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=arrow,pos=#bowPos,NBTTag=(Motion=#bowMotion,Color=-1)@chance=20
-[14Apr2025 22:38:16.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito has made the advancement [Take Aim]
-[14Apr2025 22:38:17.416] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=nothing@luck=0@chance=24
-[14Apr2025 22:38:18.094] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=special_knockback,range=6,excludePlayer=true,power=1.8,pos=#pPos,delay=0.1;type=particle,ID=poof,size=(1.0,0.3,1.0),particleAmount=500,pos=#pExactPos)@luck=2
-[14Apr2025 22:38:19.407] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=arrow,pos=#bowPos,NBTTag=(Motion=#bowMotion,Color=-1)@chance=20
-[14Apr2025 22:38:21.189] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group:1:(type=entity,ID=lucky:lucky_projectile,pos=#bowPos,NBTTag=(Motion=#bowMotion,item=(id=water_bucket),trail=(frequency=0.5,drops=["type=particle,ID=splash"]),impact=["type=block,ID=water"]);type=entity,ID=lucky:lucky_projectile,pos=#bowPos,NBTTag=(Motion=#bowMotion,item=(id=lava_bucket),trail=(frequency=0.5,drops=["type=particle,ID=smoke"]),impact=["type=block,ID=lava"]))@luck=2
-[14Apr2025 22:38:21.542] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=block,ID=water
-[14Apr2025 22:38:22.809] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=lucky:lucky_projectile,pos=#bowPos,NBTTag=(Motion=#bowMotion,item=(id=iron_sword),damage=10.0)@luck=2
-[14Apr2025 22:38:23.908] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=nothing@luck=0@chance=24
-[14Apr2025 22:38:24.455] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=lucky:lucky_projectile,pos=#bowPos,NBTTag=(Motion=#bowMotion,item=(id=iron_sword),damage=10.0)@luck=2
-[14Apr2025 22:38:26.457] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=arrow,pos=#bowPos,NBTTag=(Motion=#bowMotion,Color=-1)@chance=20
-[14Apr2025 22:38:29.567] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=arrow,pos=#bowPos,NBTTag=(Motion=#bowMotion,Color=-1)@chance=20
-[14Apr2025 22:38:32.436] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=lucky:lucky_projectile,pos=#bowPos,NBTTag=(Motion=#bowMotion(1.0,2.0),item=(id=#randList(zombie_spawn_egg,skeleton_spawn_egg,spider_spawn_egg)),impact=["group(type=difficulty,ID=hard;type=entity,ID=#randList(zombie,skeleton,spider),posOffset=#circleOffset(0,2))"]),amount=#rand(7,10)@luck=2
-[14Apr2025 22:38:32.492] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=difficulty,ID=hard;type=entity,ID=#randList(zombie,skeleton,spider),posOffset=#circleOffset(0,2))
-[14Apr2025 22:38:32.493] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=difficulty,ID=hard;type=entity,ID=#randList(zombie,skeleton,spider),posOffset=#circleOffset(0,2))
-[14Apr2025 22:38:32.494] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=difficulty,ID=hard;type=entity,ID=#randList(zombie,skeleton,spider),posOffset=#circleOffset(0,2))
-[14Apr2025 22:38:32.495] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=difficulty,ID=hard;type=entity,ID=#randList(zombie,skeleton,spider),posOffset=#circleOffset(0,2))
-[14Apr2025 22:38:32.495] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=difficulty,ID=hard;type=entity,ID=#randList(zombie,skeleton,spider),posOffset=#circleOffset(0,2))
-[14Apr2025 22:38:32.496] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=difficulty,ID=hard;type=entity,ID=#randList(zombie,skeleton,spider),posOffset=#circleOffset(0,2))
-[14Apr2025 22:38:32.893] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=difficulty,ID=hard;type=entity,ID=#randList(zombie,skeleton,spider),posOffset=#circleOffset(0,2))
-[14Apr2025 22:38:34.500] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group:1:(type=entity,ID=lucky:lucky_projectile,pos=#bowPos,NBTTag=(Motion=#bowMotion,item=(id=water_bucket),trail=(frequency=0.5,drops=["type=particle,ID=splash"]),impact=["type=block,ID=water"]);type=entity,ID=lucky:lucky_projectile,pos=#bowPos,NBTTag=(Motion=#bowMotion,item=(id=lava_bucket),trail=(frequency=0.5,drops=["type=particle,ID=smoke"]),impact=["type=block,ID=lava"]))@luck=2
-[14Apr2025 22:38:34.895] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=block,ID=lava
-[14Apr2025 22:38:36.107] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=lucky:lucky_projectile,pos=#bowPos,NBTTag=(Motion=#bowMotion,item=(id=feather),impact=["group(type=effect,ID=special_knockback,power=2.5,range=4,delay=0.1;type=particle,ID=poof,size=(1.5,1.0,1.5),particleAmount=500)"])@luck=2
-[14Apr2025 22:38:36.145] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=special_knockback,power=2.5,range=4,delay=0.1;type=particle,ID=poof,size=(1.5,1.0,1.5),particleAmount=500)
-[14Apr2025 22:38:40.841] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=effect,ID=instant_damage,range=4;type=particle,ID=splashpotion,potion=harming;type=entity,ID=lucky:lucky_projectile,NBTTag=(Motion=#motionFromDirection(#rand(0,360),-50,0.4),item=(id=iron_sword),damage=4.0),amount=20)@luck=-2
-[14Apr2025 22:38:40.995] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=arrow,pos=#bowPos,NBTTag=(Motion=#bowMotion,Color=-1)@chance=20
-[14Apr2025 22:38:42.543] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=arrow,pos=#bowPos,NBTTag=(Motion=#bowMotion,Color=-1)@chance=20
-[14Apr2025 22:38:43.553] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=lucky:lucky_projectile,pos=#bowPos,NBTTag=(Motion=#bowMotion,item=(id=egg),damage=1.0,impact=["type=entity,ID=chicken"])@luck=-1
-[14Apr2025 22:38:43.892] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=chicken
-[14Apr2025 22:38:44.603] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=arrow,pos=#bowPos,NBTTag=(Motion=#bowMotion(1.0,5.0),Color=-1),amount=20@luck=2
-[14Apr2025 22:38:44.692] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group(type=difficulty,ID=hard;type=explosion,damage=4;type=particle,ID=splashpotion,potion=harming)@luck=-2
-[14Apr2025 22:38:44.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito has made the advancement [Monster Hunter]
-[14Apr2025 22:38:47.845] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=arrow,pos=#pExactPos,posOffsetY=1.5,NBTTag=(Motion=#motionFromDirection(#pYaw+#rand(-10,10),#pPitch+#rand(-10,10),1.0),Color=-1),amount=50,delay=#rand(0.0,4.0)@luck=2
-[14Apr2025 22:38:48.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito was shot by Iaqocraft
-[14Apr2025 22:38:48.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft has made the advancement [Take Aim]
-[14Apr2025 22:38:53.451] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=lightning_bolt@luck=2
-[14Apr2025 22:38:57.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Removed 367 item(s) from player Iaqocraft]
-[14Apr2025 22:39:13.500] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=arrow,pos=#bowPos,NBTTag=(Motion=#bowMotion,Color=-1)@chance=20
-[14Apr2025 22:39:14.944] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=arrow,pos=#bowPos,NBTTag=(Motion=#bowMotion,Color=-1)@chance=20
-[14Apr2025 22:39:16.297] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: group:1:(type=entity,ID=lucky:lucky_projectile,pos=#bowPos,NBTTag=(Motion=#bowMotion,item=(id=water_bucket),trail=(frequency=0.5,drops=["type=particle,ID=splash"]),impact=["type=block,ID=water"]);type=entity,ID=lucky:lucky_projectile,pos=#bowPos,NBTTag=(Motion=#bowMotion,item=(id=lava_bucket),trail=(frequency=0.5,drops=["type=particle,ID=smoke"]),impact=["type=block,ID=lava"]))@luck=2
-[14Apr2025 22:39:16.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Iaqocraft: Set own game mode to Creative Mode]
-[14Apr2025 22:39:16.392] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=block,ID=lava
-[14Apr2025 22:39:18.898] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=arrow,pos=#bowPos,NBTTag=(Motion=#bowMotion,Color=-1)@chance=20
-[14Apr2025 22:39:20.247] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=arrow,pos=#bowPos,NBTTag=(Motion=#bowMotion,Color=-1)@chance=20
-[14Apr2025 22:39:21.698] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=arrow,pos=#bowPos,NBTTag=(Motion=#bowMotion,Color=-1)@chance=20
-[14Apr2025 22:39:23.203] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=entity,ID=lucky:lucky_projectile,pos=#bowPos,NBTTag=(Motion=#bowMotion,item=(id=cobweb),impact=["type=fill,ID=cobweb,size=(3,2,3),posOffset=(-1,0,-1)"])@luck=2
-[14Apr2025 22:39:23.242] [Server thread/INFO] [mod.lucky.forge.ForgeLuckyRegistry/]: Chosen Lucky Drop: type=fill,ID=cobweb,size=(3,2,3),posOffset=(-1,0,-1)
-[14Apr2025 22:39:26.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poubasadito: Set own game mode to Creative Mode]
-[14Apr2025 22:39:32.793] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Iaqocraft lost connection: Disconnected
-[14Apr2025 22:39:32.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Iaqocraft left the game
-[14Apr2025 22:39:34.291] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Poubasadito lost connection: Disconnected
-[14Apr2025 22:39:34.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poubasadito left the game
+[03:21:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[03:21:18] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[03:21:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[03:21:18] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[03:21:18] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_442, running on Linux:amd64:6.8.0-1021-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[03:21:18] [main/INFO] [FML]: Searching /workspaces/server-god/servidor_minecraft/./mods for mods
+[03:21:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[03:21:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[03:21:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[03:21:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[03:21:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[03:21:19] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[03:21:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[03:21:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[03:21:20] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[03:21:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[03:21:20] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[03:21:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[03:21:23] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[03:21:23] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[03:21:23] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[03:21:23] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[03:21:23] [Server thread/INFO] [FML]: Searching /workspaces/server-god/servidor_minecraft/./mods for mods
+[03:21:23] [Server thread/INFO] [FML]: Mod geckolib3 is missing the required element 'name'. Substituting geckolib3
+[03:21:23] [Server thread/INFO] [FML]: Forge Mod Loader has identified 7 mods to load
+[03:21:24] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[03:21:24] [Server thread/WARN] [FML]: Missing English translation for geckolib3: assets/geckolib3/lang/en_us.lang
+[03:21:24] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, motnt, sexmod, geckolib3] at CLIENT
+[03:21:24] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, motnt, sexmod, geckolib3] at SERVER
+[03:21:24] [Server thread/WARN] [FML]: ****************************************
+[03:21:24] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.bq$b for mod sexmod
+[03:21:24] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[03:21:24] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[03:21:24] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[03:21:24] [Server thread/WARN] [FML]: ****************************************
+[03:21:24] [Server thread/WARN] [FML]: ****************************************
+[03:21:24] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.w$a for mod sexmod
+[03:21:24] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[03:21:24] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[03:21:24] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[03:21:24] [Server thread/WARN] [FML]: ****************************************
+[03:21:24] [Server thread/WARN] [FML]: ****************************************
+[03:21:24] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.bV for mod sexmod
+[03:21:24] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[03:21:24] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[03:21:24] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[03:21:24] [Server thread/WARN] [FML]: ****************************************
+[03:21:24] [Server thread/WARN] [FML]: ****************************************
+[03:21:24] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.d for mod sexmod
+[03:21:24] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[03:21:24] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[03:21:24] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[03:21:24] [Server thread/WARN] [FML]: ****************************************
+[03:21:24] [Server thread/WARN] [FML]: ****************************************
+[03:21:24] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.ah for mod sexmod
+[03:21:24] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[03:21:24] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[03:21:24] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[03:21:24] [Server thread/WARN] [FML]: ****************************************
+[03:21:24] [Server thread/WARN] [FML]: ****************************************
+[03:21:24] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.c0 for mod sexmod
+[03:21:24] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[03:21:24] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[03:21:24] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[03:21:24] [Server thread/WARN] [FML]: ****************************************
+[03:21:24] [Server thread/WARN] [FML]: ****************************************
+[03:21:24] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.v for mod sexmod
+[03:21:24] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[03:21:24] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[03:21:24] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[03:21:24] [Server thread/WARN] [FML]: ****************************************
+[03:21:24] [Server thread/WARN] [FML]: ****************************************
+[03:21:24] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.bq$b for mod geckolib3
+[03:21:24] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[03:21:24] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[03:21:24] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[03:21:24] [Server thread/WARN] [FML]: ****************************************
+[03:21:24] [Server thread/WARN] [FML]: ****************************************
+[03:21:24] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.w$a for mod geckolib3
+[03:21:24] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[03:21:24] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[03:21:24] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[03:21:24] [Server thread/WARN] [FML]: ****************************************
+[03:21:24] [Server thread/WARN] [FML]: ****************************************
+[03:21:24] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.bV for mod geckolib3
+[03:21:24] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[03:21:24] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[03:21:24] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[03:21:24] [Server thread/WARN] [FML]: ****************************************
+[03:21:24] [Server thread/WARN] [FML]: ****************************************
+[03:21:24] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.d for mod geckolib3
+[03:21:24] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[03:21:24] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[03:21:24] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[03:21:24] [Server thread/WARN] [FML]: ****************************************
+[03:21:24] [Server thread/WARN] [FML]: ****************************************
+[03:21:24] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.ah for mod geckolib3
+[03:21:24] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[03:21:24] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[03:21:24] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[03:21:24] [Server thread/WARN] [FML]: ****************************************
+[03:21:24] [Server thread/WARN] [FML]: ****************************************
+[03:21:24] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.c0 for mod geckolib3
+[03:21:24] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[03:21:24] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[03:21:24] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[03:21:24] [Server thread/WARN] [FML]: ****************************************
+[03:21:24] [Server thread/WARN] [FML]: ****************************************
+[03:21:24] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.v for mod geckolib3
+[03:21:24] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[03:21:24] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[03:21:24] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[03:21:24] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[03:21:24] [Server thread/WARN] [FML]: ****************************************
+[03:21:24] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[03:21:24] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[03:21:24] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[03:21:24] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[03:21:24] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[03:21:24] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[03:21:25] [Server thread/INFO] [FML]: Applying holder lookups
+[03:21:25] [Server thread/INFO] [FML]: Holder lookups applied
+[03:21:25] [Server thread/INFO] [FML]: Applying holder lookups
+[03:21:25] [Server thread/INFO] [FML]: Holder lookups applied
+[03:21:25] [Server thread/INFO] [FML]: Applying holder lookups
+[03:21:25] [Server thread/INFO] [FML]: Holder lookups applied
+[03:21:25] [Server thread/INFO] [FML]: Applying holder lookups
+[03:21:25] [Server thread/INFO] [FML]: Holder lookups applied
+[03:21:25] [Server thread/INFO] [FML]: Injecting itemstacks
+[03:21:25] [Server thread/INFO] [FML]: Itemstack injection complete
+[03:21:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[03:21:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[03:21:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[03:21:25] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[03:21:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[03:21:25] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[03:21:25] [Server thread/INFO] [FML]: Applying holder lookups
+[03:21:25] [Server thread/INFO] [FML]: Holder lookups applied
+[03:21:25] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class com.schnurritv.sexmod.bi from class com.schnurritv.sexmod.bg
+[03:21:25] [Server thread/INFO] [FML]: Injecting itemstacks
+[03:21:25] [Server thread/INFO] [FML]: Itemstack injection complete
+[03:21:25] [Server thread/INFO] [sexmod]: loading up custom models...
+[03:21:25] [Server thread/INFO] [sexmod]: found 0 custom model(s)
+[03:21:25] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 7 mods
+[03:21:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[03:21:25] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[03:21:26] [Server thread/INFO] [FML]: Applying holder lookups
+[03:21:26] [Server thread/INFO] [FML]: Holder lookups applied
+[03:21:26] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@6ea42d05)
+[03:21:26] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[03:21:26] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@6ea42d05)
+[03:21:26] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@6ea42d05)
+[03:21:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[03:21:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 79%
+[03:21:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (1.839s)! For help, type "help" or "?"
+[03:21:27] [Server thread/INFO] [FML]: Unloading dimension -1
+[03:21:27] [Server thread/INFO] [FML]: Unloading dimension 1
+[03:21:36] [User Authenticator #1/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player Iaqocraft is 6b94834c-3a61-451a-889e-c47e334a64d5
+[03:21:37] [Netty Epoll Server IO #6/INFO] [FML]: Client protocol version 2
+[03:21:37] [Netty Epoll Server IO #6/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,sexmod@1.9.0,geckolib3@3.0.30,mcp@9.42,motnt@1.0.1
+[03:21:38] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[03:21:38] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Iaqocraft[/127.221.181.137:43507] logged in with entity id 418 at (71.71964064660682, 67.0, 328.9168342731966)
+[03:21:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Iaqocraft joined the game
+[03:21:50] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class com.schnurritv.sexmod.bi from class com.schnurritv.sexmod.cc
+[03:23:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Iaqocraft: Game rule keepinventory has been updated to true]
+[03:23:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Iaqocraft fell out of the world
+[03:23:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Iaqocraft: Killed Iaqocraft]
+[03:24:15] [User Authenticator #2/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player Poubasadito is a4a491d0-8fa2-4d1f-890f-81d9348d95b3
+[03:24:15] [Netty Epoll Server IO #5/INFO] [FML]: Client protocol version 2
+[03:24:15] [Netty Epoll Server IO #5/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2859,sexmod@1.9.0,geckolib3@3.0.30,mcp@9.42,motnt@1.0.1
+[03:24:16] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[03:24:16] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Poubasadito[/127.1.197.24:36331] logged in with entity id 2788 at (38.5, 65.0, 250.5)
+[03:24:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Poubasadito joined the game
+[03:24:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Iaqocraft: Teleported Iaqocraft to Poubasadito]
+[03:24:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Iaqocraft: Opped Poubasadito]
+[03:24:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Poubasadito: Set own game mode to Creative Mode]
+[03:25:24] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class com.schnurritv.sexmod.bi from class com.schnurritv.sexmod.cK
+[03:25:44] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [4, 77] in dimension 0 (overworld) while populating chunk [3, 77], causing cascading worldgen lag.
+[03:25:44] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:44] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Poubasadito moved too quickly! -0.5225423016999002,0.0,10.850219449097949
+[03:25:45] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [-3, 78] in dimension 0 (overworld) while populating chunk [-2, 78], causing cascading worldgen lag.
+[03:25:45] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:52] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [-4, 86] in dimension 0 (overworld) while populating chunk [-3, 86], causing cascading worldgen lag.
+[03:25:52] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:53] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [-5, 86] in dimension 0 (overworld) while populating chunk [-3, 86], causing cascading worldgen lag.
+[03:25:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:53] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [-5, 87] in dimension 0 (overworld) while populating chunk [-3, 86], causing cascading worldgen lag.
+[03:25:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:53] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [-4, 87] in dimension 0 (overworld) while populating chunk [-3, 86], causing cascading worldgen lag.
+[03:25:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:53] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [-3, 87] in dimension 0 (overworld) while populating chunk [-3, 86], causing cascading worldgen lag.
+[03:25:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:53] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [-2, 87] in dimension 0 (overworld) while populating chunk [-3, 86], causing cascading worldgen lag.
+[03:25:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:53] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [-1, 87] in dimension 0 (overworld) while populating chunk [-3, 86], causing cascading worldgen lag.
+[03:25:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:53] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [-6, 87] in dimension 0 (overworld) while populating chunk [-3, 86], causing cascading worldgen lag.
+[03:25:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:53] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [-6, 86] in dimension 0 (overworld) while populating chunk [-3, 86], causing cascading worldgen lag.
+[03:25:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:53] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [-1, 88] in dimension 0 (overworld) while populating chunk [-3, 86], causing cascading worldgen lag.
+[03:25:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:53] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [-6, 88] in dimension 0 (overworld) while populating chunk [-3, 86], causing cascading worldgen lag.
+[03:25:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:53] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [-5, 88] in dimension 0 (overworld) while populating chunk [-3, 86], causing cascading worldgen lag.
+[03:25:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:53] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [-4, 88] in dimension 0 (overworld) while populating chunk [-3, 86], causing cascading worldgen lag.
+[03:25:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:53] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [-2, 88] in dimension 0 (overworld) while populating chunk [-3, 86], causing cascading worldgen lag.
+[03:25:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:53] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [-3, 88] in dimension 0 (overworld) while populating chunk [-3, 86], causing cascading worldgen lag.
+[03:25:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:53] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [-7, 86] in dimension 0 (overworld) while populating chunk [-3, 86], causing cascading worldgen lag.
+[03:25:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:53] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [-7, 87] in dimension 0 (overworld) while populating chunk [-3, 86], causing cascading worldgen lag.
+[03:25:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:53] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [-7, 88] in dimension 0 (overworld) while populating chunk [-3, 86], causing cascading worldgen lag.
+[03:25:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:53] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [0, 87] in dimension 0 (overworld) while populating chunk [-3, 86], causing cascading worldgen lag.
+[03:25:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:53] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [0, 88] in dimension 0 (overworld) while populating chunk [-3, 86], causing cascading worldgen lag.
+[03:25:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:53] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [-6, 89] in dimension 0 (overworld) while populating chunk [-3, 86], causing cascading worldgen lag.
+[03:25:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:53] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [-7, 89] in dimension 0 (overworld) while populating chunk [-3, 86], causing cascading worldgen lag.
+[03:25:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:53] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [-4, 89] in dimension 0 (overworld) while populating chunk [-3, 86], causing cascading worldgen lag.
+[03:25:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:53] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [-5, 89] in dimension 0 (overworld) while populating chunk [-3, 86], causing cascading worldgen lag.
+[03:25:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:53] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [-3, 89] in dimension 0 (overworld) while populating chunk [-3, 86], causing cascading worldgen lag.
+[03:25:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:53] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [-2, 89] in dimension 0 (overworld) while populating chunk [-3, 86], causing cascading worldgen lag.
+[03:25:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:53] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [-1, 89] in dimension 0 (overworld) while populating chunk [-3, 86], causing cascading worldgen lag.
+[03:25:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:53] [Server thread/WARN] [FML]: SchnurriTV's Sexmod loaded a new chunk [0, 89] in dimension 0 (overworld) while populating chunk [-3, 86], causing cascading worldgen lag.
+[03:25:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:25:53] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Poubasadito moved too quickly! 2.0155577430459886,-10.423596118864623,3.880776939967518
+[03:25:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Iaqocraft: Teleported Iaqocraft to Poubasadito]
+[03:27:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Iaqocraft fell out of the world
+[03:27:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Iaqocraft: Killed Iaqocraft]
+[03:28:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Iaqocraft: Teleported Iaqocraft to Poubasadito]
+[03:28:40] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Iaqocraft lost connection: Disconnected
+[03:28:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Iaqocraft left the game
+[03:28:41] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Poubasadito lost connection: Disconnected
+[03:28:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Poubasadito left the game
+[03:28:47] [User Authenticator #3/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player Poubasadito is a4a491d0-8fa2-4d1f-890f-81d9348d95b3
+[03:28:48] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
+[03:28:48] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2859,sexmod@1.9.0,geckolib3@3.0.30,mcp@9.42,motnt@1.0.1
+[03:28:48] [User Authenticator #4/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player Iaqocraft is 6b94834c-3a61-451a-889e-c47e334a64d5
+[03:28:48] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[03:28:48] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Poubasadito[/127.1.197.24:44051] logged in with entity id 14979 at (61.28425734448237, 79.0, 1246.501263609493)
+[03:28:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Poubasadito joined the game
+[03:28:48] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
+[03:28:48] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,sexmod@1.9.0,geckolib3@3.0.30,mcp@9.42,motnt@1.0.1
+[03:28:49] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[03:28:49] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Iaqocraft[/127.221.181.137:51987] logged in with entity id 14980 at (61.19178568688979, 79.0, 1244.1072018378538)
+[03:28:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Iaqocraft joined the game
+[03:30:20] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Iaqocraft lost connection: Disconnected
+[03:30:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Iaqocraft left the game
+[03:30:27] [User Authenticator #5/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player Iaqocraft is 6b94834c-3a61-451a-889e-c47e334a64d5
+[03:30:28] [Netty Epoll Server IO #4/INFO] [FML]: Client protocol version 2
+[03:30:28] [Netty Epoll Server IO #4/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,sexmod@1.9.0,geckolib3@3.0.30,mcp@9.42,motnt@1.0.1
+[03:30:29] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[03:30:29] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Iaqocraft[/127.221.181.137:36337] logged in with entity id 16819 at (61.03682216154499, 79.0, 1244.081765866598)
+[03:30:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Iaqocraft joined the game
