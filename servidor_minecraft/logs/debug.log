@@ -7742,3 +7742,17 @@ java.lang.NullPointerException: null
 [03:41:31] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 6784ms behind, skipping 135 tick(s)
 [03:41:31] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Poubasadito moved too quickly! 5.962985947552913,0.0,15.195915057699722
 [03:41:31] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Iaqocraft moved too quickly! 6.4652258852730355,6.9489581053476,5.685781409007177
+[03:41:50] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[03:42:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Iaqocraft: Teleported Iaqocraft to Poubasadito]
+[03:42:35] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[03:43:20] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[03:43:56] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 22274ms behind, skipping 445 tick(s)
+[03:43:56] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Iaqocraft moved too quickly! 8.393527489634039,-4.153776550333902,-5.104008281273764
+[03:43:56] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Poubasadito moved too quickly! 3.2861912492917327,3.744365721273084,-9.612008113177353
+[03:44:16] [Netty Epoll Server IO #4/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[03:44:56] [Server Watchdog/FATAL] [net.minecraft.server.dedicated.ServerHangWatchdog]: A single server tick took 60.00 seconds (should be max 0.05)
+[03:44:56] [Server Watchdog/FATAL] [net.minecraft.server.dedicated.ServerHangWatchdog]: Considering it to be crashed, server will forcibly shutdown.
+[03:44:56] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerHangWatchdog]: This crash report has been saved to: /workspaces/server-god/servidor_minecraft/./crash-reports/crash-2025-04-17_03.44.56-server.txt
+[03:44:56] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[03:44:56] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
